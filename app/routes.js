@@ -101,7 +101,7 @@ router.post('/help', checkHasAnswers, (req, res) => {
     let error = {};
     error.fieldName = 'help';
     error.href = '#help';
-    error.text = 'Choose what help you need because of coronavirus';
+    error.text = 'Choose what you need to find help with, or ‘I’m not sure’';
     errors.push(error);
   }
 

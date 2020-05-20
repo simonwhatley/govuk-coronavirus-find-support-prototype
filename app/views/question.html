@@ -2,7 +2,7 @@
 {% extends "layout.html" %}
 
 {% block pageTitle %}
-  {{ question.title }}
+  {{ 'Error: ' if errors | length }} {{ question.title }}
 {% endblock %}
 
 {% block beforeContent %}
@@ -19,11 +19,17 @@
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
-    {%- if question.caption | length %}
-      <span class="govuk-caption-xl">
-        {{- question.caption -}}
-      </span>
-    {% endif -%}
+
+    {%- set legendHtml %}
+      <h1 class="govuk-heading-xl govuk-!-margin-bottom-0">
+        {%- if question.caption | length %}
+          <span class="govuk-caption-xl">
+            {{- question.caption -}}
+          </span>
+        {% endif -%}
+        {{- question.title -}}
+      </h1>
+    {% endset -%}
 
     <form action="{{ actions.next }}" method="post" accept-charset="utf-8" novalidate>
 
@@ -33,8 +39,7 @@
           name: question.name,
           fieldset: {
             legend: {
-              text: question.title,
-              classes: "govuk-fieldset__legend--xl"
+              html: legendHtml
             }
           },
           hint: {
@@ -51,8 +56,7 @@
           name: question.name,
           fieldset: {
             legend: {
-              text: question.title,
-              classes: "govuk-fieldset__legend--xl"
+              html: legendHtml
             }
           },
           hint: {
