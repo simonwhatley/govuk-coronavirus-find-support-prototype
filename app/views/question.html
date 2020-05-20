@@ -1,0 +1,76 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  {{ question.title }}
+{% endblock %}
+
+{% block beforeContent %}
+{% include "./partials/_phase-banner.html" %}
+{{ govukBackLink({
+  text: "Back",
+  href: actions.back
+}) if actions.back | length }}
+{% endblock %}
+
+{% block content %}
+
+{% include "./partials/_error-summary.html" %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    {%- if question.caption | length %}
+      <span class="govuk-caption-xl">
+        {{- question.caption -}}
+      </span>
+    {% endif -%}
+
+    <form action="{{ actions.next }}" method="post" accept-charset="utf-8" novalidate>
+
+      {%- if question.type == 'single' %}
+        {{ govukRadios({
+          idPrefix: question.id,
+          name: question.name,
+          fieldset: {
+            legend: {
+              text: question.title,
+              classes: "govuk-fieldset__legend--xl"
+            }
+          },
+          hint: {
+            text: question.hint
+          } if question.hint,
+          errorMessage: errors | getErrorMessage(question.id),
+          items: question.items
+        }) }}
+      {% endif -%}
+
+      {%- if question.type == 'multiple' %}
+        {{ govukCheckboxes({
+          idPrefix: question.id,
+          name: question.name,
+          fieldset: {
+            legend: {
+              text: question.title,
+              classes: "govuk-fieldset__legend--xl"
+            }
+          },
+          hint: {
+            text: question.hint
+          } if question.hint,
+          errorMessage: errors | getErrorMessage(question.id),
+          items: question.items
+        }) }}
+      {% endif -%}
+
+      {{ govukButton({
+        text: "Continue",
+        classes: "govuk-!-margin-top-5"
+      }) }}
+
+    </form>
+
+  </div>
+</div>
+
+{% endblock %}
