@@ -8,6 +8,30 @@ var filters = {}
 
 /*
   ====================================================================
+  arrayToList
+  --------------------------------------------------------------------
+  Return a list from an array
+  ====================================================================
+
+  Usage:
+
+  {{ ["England","Scotland","Wales"] | arrayToList }}
+
+  = England, Scotland and Wales
+
+*/
+
+filters.arrayToList = function(array, join = ', ', final = ' and ') {
+  var arr = array.slice(0);
+  var last = arr.pop();
+  if (array.length > 1) {
+    return arr.join(join) + final + last;
+  }
+  return last;
+}
+
+/*
+  ====================================================================
   combineArrays
   --------------------------------------------------------------------
   Merge arrays or strings together in to an array
