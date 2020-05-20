@@ -4,7 +4,7 @@
 
 
 // Leave this filters line
-var filters = {}
+let filters = {}
 
 /*
   ====================================================================

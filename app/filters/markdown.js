@@ -1,32 +1,32 @@
 // -------------------------------------------------------------------
 // Imports and setup
 // -------------------------------------------------------------------
-const moment = require("pluralize");
+const marked = require('marked');
 
 // Leave this filters line
 let filters = {}
 
 /*
   ====================================================================
-  pluralise
+  markdownToHtml
   --------------------------------------------------------------------
-  Pluralise and singularise any word
+  Create HTML from markdown
   ====================================================================
 
   Usage:
 
-  {{ "person" | pluralise }}
+  {{ "**Enter a title**" | markdownToHtml }}
 
-  = "people"
+  = "<strong>Enter a title</strong>"
 
 */
 
-filters.pluralise = (content, ...args) => {
-  // pluralize.addSingularRule(/lens$/i, 'lens')
-  // pluralize.addPluralRule(/lens$/i, 'lenses')
-  // pluralize.addPluralRule(/correspondence$/i, 'correspondence')
-  return pluralize(content, ...args)
+filters.markdownToHtml = (markdown) => {
+  if (!markdown)
+    return null;
+  return html = marked(markdown);
 }
+
 
 // -------------------------------------------------------------------
 // keep the following line to return your filters to the app

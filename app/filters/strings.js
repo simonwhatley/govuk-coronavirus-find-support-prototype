@@ -5,7 +5,11 @@ const string = require('string')
 const _ = require('lodash');
 
 // Leave this filters line
-var filters = {}
+let filters = {}
+
+filters.isString = (obj) => {
+  return typeof obj == 'string';
+};
 
 /*
   ====================================================================

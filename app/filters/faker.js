@@ -1,14 +1,14 @@
 // -------------------------------------------------------------------
 // Imports and setup
 // -------------------------------------------------------------------
-const _ = require('lodash');
+const faker = require("faker");
 
 // Leave this filters line
 let filters = {}
 
 /*
   ====================================================================
-  debug
+  fakePerson
   --------------------------------------------------------------------
   Short description for the filter
   ====================================================================
@@ -19,14 +19,24 @@ let filters = {}
 
 */
 
-filters.debug = (item) => {
-  console.log('Debug', item)
-  return item;
+filters.fakePerson = (string) => {
+  // faker.seed(123)
+  let firstName = faker.name.firstName();
+  let lastName = faker.name.lastName();
+  let fullName = firstName + " " + lastName;
+  let email = fullName.split(' ').join('.').toLowerCase() + "@example.com";
+  let user = {
+    firstName: firstName,
+    lastName: lastName,
+    fullName: fullName,
+    email: email
+  }
+  return user;
 }
 
 /*
   ====================================================================
-  falsify
+  fakeAddress
   --------------------------------------------------------------------
   Short description for the filter
   ====================================================================
@@ -37,33 +47,11 @@ filters.debug = (item) => {
 
 */
 
-filters.falsify = (input) => {
-  if (_.isNumber(input)) return input
-  else if (input == false) return false
-  else if (input == 'true') return true
-  else if (input == 'false') return false
-  return input;
+filters.fakeAddress = (string) => {
+
+  return address;
 }
 
-/*
-  ====================================================================
-  addIndexCount
-  --------------------------------------------------------------------
-  Short description for the filter
-  ====================================================================
-
-  Usage:
-
-  [Usage here]
-
-*/
-
-filters.addIndexCount = array => {
-  array.forEach((item, index) =>{
-    item.index = index
-  })
-  return array;
-}
 
 // -------------------------------------------------------------------
 // keep the following line to return your filters to the app

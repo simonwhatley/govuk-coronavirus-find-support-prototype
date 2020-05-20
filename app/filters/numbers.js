@@ -1,32 +1,30 @@
 // -------------------------------------------------------------------
 // Imports and setup
 // -------------------------------------------------------------------
-const moment = require("pluralize");
+const numeral = require('numeral');
 
 // Leave this filters line
 let filters = {}
 
 /*
   ====================================================================
-  pluralise
+  numeral
   --------------------------------------------------------------------
-  Pluralise and singularise any word
+  Prettify a number
   ====================================================================
 
   Usage:
 
-  {{ "person" | pluralise }}
+  {{ 1000 | numeral("0,00.0") }}
 
-  = "people"
+  = 1,000.00
 
 */
 
-filters.pluralise = (content, ...args) => {
-  // pluralize.addSingularRule(/lens$/i, 'lens')
-  // pluralize.addPluralRule(/lens$/i, 'lenses')
-  // pluralize.addPluralRule(/correspondence$/i, 'correspondence')
-  return pluralize(content, ...args)
+filters.numeral = function(number, format) {
+  return numeral(number).format(format);
 }
+
 
 // -------------------------------------------------------------------
 // keep the following line to return your filters to the app

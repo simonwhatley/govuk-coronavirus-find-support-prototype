@@ -2,10 +2,29 @@
 // Imports and setup
 // -------------------------------------------------------------------
 const moment = require("moment");
-var _ = require('lodash');
+const _ = require('lodash');
 
 // Leave this filters line
-var filters = {}
+let filters = {}
+
+/*
+  ====================================================================
+  date
+  --------------------------------------------------------------------
+  Utility function to parse the date format
+  ====================================================================
+
+  Usage:
+
+  {{ "1970-01-01" | date("DD/MM/YYYY") }}
+
+  = 01/01/1970
+
+*/
+
+filters.date = function(timestamp, format) {
+  return moment(timestamp).format(format);
+}
 
 /*
   ====================================================================
@@ -141,7 +160,6 @@ filters.prettyMonth = (monthNumber) => {
   Requires positional args, no named args
 */
 
-//
 filters.sortDateArrays = (arr, reversed, attr) => {
 
     let array = _.map(arr, v => v)
@@ -233,9 +251,9 @@ filters.formatDate = (date, format, dateFormat) => {
       case (format == 'pretty'):
         return returnDate.format('Do MMMM YYYY');
 
-      // March 21st 2018, 12:00:00 am
+      // 21st March 2018, 12:00:00 am
       case (format == 'full'):
-        return returnDate.format('MMMM Do YYYY, h:mm:ss a');
+        return returnDate.format('Do MMMM YYYY, h:mm:ss a');
 
       // pass format through to moment
       case _.isString(format):
@@ -245,6 +263,81 @@ filters.formatDate = (date, format, dateFormat) => {
       default:
         return returnDate.format();
     }
+}
+
+/*
+  ====================================================================
+  dateAdd
+  --------------------------------------------------------------------
+  Short description for the filter
+  ====================================================================
+
+  Usage:
+
+  {{ '1970-01-01' | dateAdd(1, 'weeks') | date("DD/MM/YYYY") }}
+
+  = 08/01/1970
+
+*/
+
+filters.dateAdd = function(date, num, unit='days') {
+  return moment(date).add(num, unit).toDate();
+}
+
+/*
+  ====================================================================
+  govDate
+  --------------------------------------------------------------------
+  Short description for the filter
+  ====================================================================
+
+  Usage:
+
+
+
+*/
+
+filters.govDate = (timestamp) => {
+  return moment(timestamp).format('D MMMM YYYY');
+}
+
+/*
+  ====================================================================
+  govShortDate
+  --------------------------------------------------------------------
+  Short description for the filter
+  ====================================================================
+
+  Usage:
+
+
+
+*/
+
+filters.govShortDate = (timestamp) => {
+  return moment(timestamp).format('D MMM YYYY');
+}
+
+/*
+  ====================================================================
+  govTime
+  --------------------------------------------------------------------
+  Short description for the filter
+  ====================================================================
+
+  Usage:
+
+
+
+*/
+
+filters.govTime = (timestamp) => {
+  let t = moment(timestamp);
+  if(t.minutes() > 0) {
+    return t.format('h:mma');
+  } else {
+    return t.format('ha');
+  }
 }
 
 // -------------------------------------------------------------------

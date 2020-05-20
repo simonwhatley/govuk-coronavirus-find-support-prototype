@@ -4,7 +4,7 @@
 const _ = require('lodash');
 
 // Leave this filters line
-var filters = {}
+let filters = {}
 
 /*
   ====================================================================
