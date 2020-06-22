@@ -31,7 +31,7 @@
       </h1>
     {% endset -%}
 
-    <form action="{{ actions.next }}" method="post" accept-charset="utf-8" novalidate>
+    <form action="{{ actions.save }}" method="post" accept-charset="utf-8" novalidate>
 
       {%- if question.type == 'single' %}
         {{ govukRadios({
