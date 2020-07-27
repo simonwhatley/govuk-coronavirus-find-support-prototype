@@ -1,10 +1,10 @@
 // -------------------------------------------------------------------
 // Imports and setup
 // -------------------------------------------------------------------
-const numeral = require('numeral');
+const numeral = require('numeral')
 
 // Leave this filters line
-let filters = {}
+const filters = {}
 
 /*
   ====================================================================
@@ -21,10 +21,9 @@ let filters = {}
 
 */
 
-filters.numeral = function(number, format) {
-  return numeral(number).format(format);
+filters.numeral = (number, format) => {
+  return numeral(number).format(format)
 }
-
 
 // -------------------------------------------------------------------
 // keep the following line to return your filters to the app

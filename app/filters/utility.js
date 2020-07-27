@@ -1,10 +1,10 @@
 // -------------------------------------------------------------------
 // Imports and setup
 // -------------------------------------------------------------------
-const _ = require('lodash');
+const _ = require('lodash')
 
 // Leave this filters line
-let filters = {}
+const filters = {}
 
 /*
   ====================================================================
@@ -21,7 +21,7 @@ let filters = {}
 
 filters.debug = (item) => {
   console.log('Debug', item)
-  return item;
+  return item
 }
 
 /*
@@ -39,10 +39,10 @@ filters.debug = (item) => {
 
 filters.falsify = (input) => {
   if (_.isNumber(input)) return input
-  else if (input == false) return false
-  else if (input == 'true') return true
-  else if (input == 'false') return false
-  return input;
+  else if (input === false) return false
+  else if (input === 'true') return true
+  else if (input === 'false') return false
+  return input
 }
 
 /*
@@ -59,10 +59,10 @@ filters.falsify = (input) => {
 */
 
 filters.addIndexCount = array => {
-  array.forEach((item, index) =>{
+  array.forEach((item, index) => {
     item.index = index
   })
-  return array;
+  return array
 }
 
 // -------------------------------------------------------------------

@@ -2,14 +2,14 @@
 // Imports and setup
 // -------------------------------------------------------------------
 const string = require('string')
-const _ = require('lodash');
+const _ = require('lodash')
 
 // Leave this filters line
-let filters = {}
+const filters = {}
 
 filters.isString = (obj) => {
-  return typeof obj == 'string';
-};
+  return typeof obj === 'string'
+}
 
 /*
   ====================================================================
@@ -27,8 +27,11 @@ filters.isString = (obj) => {
 */
 
 filters.slugify = (input) => {
-  if (!input) throw "Error in slugify: no input", input;
-  else return string(input).slugify().toString();
+  if (!input) {
+    return 'Error in slugify: no input'
+  } else {
+    return string(input).slugify().toString()
+  }
 }
 
 /*
@@ -61,15 +64,18 @@ filters.kebabCase = (string) => {
 
   [Usage here]
 
-
 */
 
 filters.sentenceCase = (input) => {
-  if (!input) return '' // avoid printing false to client
-  if (_.isString(input)){
-    return input.charAt(0).toUpperCase() + input.slice(1);
+  if (!input) {
+    return ''// avoid printing false to client
   }
-  else return input
+
+  if (_.isString(input)) {
+    return input.charAt(0).toUpperCase() + input.slice(1)
+  } else {
+    return input
+  }
 }
 
 // -------------------------------------------------------------------
