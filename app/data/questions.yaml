@@ -1,0 +1,181 @@
+---
+en:
+  location:
+    questions:
+      nation:
+        title: Where do you want to find information about?
+        options:
+          option_england:
+            label: England
+          option_scotland:
+            label: Scotland
+          option_wales:
+            label: Wales
+          optopn_northern_ireland:
+            label: Northern Ireland
+        custom_select_error: Select where you want to find information about
+  filter_questions:
+    questions:
+      need_help_with:
+        title: What do you need help with because of coronavirus?
+        hint_text: Select all that apply
+        options:
+        - Not sure
+        custom_select_error: Select what you need to find help with, or ‘Not sure’
+  feeling_unsafe:
+    title: Feeling unsafe
+    need_help_with_label: Feeling unsafe where you live, or what to do if you’re
+      worried about the safety of another adult or child
+    questions:
+      feel_safe:
+        title: Do you feel safe where you live?
+        options:
+          option_yes:
+            label: Yes
+          option_yes_someone_else:
+            label: Yes, but I’m worried about the safety of another adult or a
+              child
+          option_no:
+            label: No
+          not_sure:
+            label: Not sure
+        custom_select_error: Select if you feel safe where you live or if you’re
+          worried about someone else
+  paying_bills:
+    title: Paying your rent, mortgage, or bills
+    questions:
+      afford_rent_mortgage_bills:
+        title: Are you finding it hard to pay your rent, mortgage or bills?
+        options:
+          option_yes:
+            label: Yes
+          option_no:
+            label: No
+          not_sure:
+            label: Not sure
+        custom_select_error: Select yes if you’re finding it hard to pay your
+          rent, mortgage or bills
+  getting_food:
+    title: Getting food
+    questions:
+      afford_food:
+        title: Are you finding it hard to afford food?
+        options:
+          option_yes:
+            label: Yes
+          option_no:
+            label: No
+          not_sure:
+            label: Not sure
+        custom_select_error: Select yes if you’re finding it hard to afford food
+      get_food:
+        title: Are you able to get food?
+        options:
+          option_yes:
+            label: Yes
+          option_no:
+            label: No
+          not_sure:
+            label: Not sure
+        custom_select_error: Select yes if you’re able to get food
+  being_unemployed:
+    title: Being made redundant or unemployed, or not having any work
+    questions:
+      self_employed:
+        title: Are you self-employed or a sole trader?
+        title_caption: Being unemployed or not having any work
+        options:
+          option_yes:
+            label: Yes
+          option_no:
+            label: No
+          not_sure:
+            label: Not sure
+        skip_next_question_options:
+        - 'Yes'
+        custom_select_error: Select yes if you’re self-employed or a sole trader
+      have_you_been_made_unemployed:
+        title: Have you been made redundant or told to stop working?
+        title_caption: Being made redundant or unemployed, or not having any work
+        options:
+          option_yes:
+            label: Yes, I’ve been made redundant or unemployed, or I might be soon
+          option_might_be:
+            label: Yes, I’ve been put on temporary leave (on furlough), or might
+              be soon
+          option_no:
+            label: No
+          not_sure:
+            label: Not sure
+        skip_next_question_options:
+        - Yes, I’ve been made redundant or unemployed, or I might be soon
+        - Yes, I’ve been put on temporary leave (on furlough), or might be soon
+        custom_select_error: Select if you’ve been made redundant or unemployed, or put on
+          temporary leave (on furlough)
+      are_you_off_work_ill:
+        title: Are you off work because you’re ill or self-isolating?
+        title_caption: Going in to work
+        options:
+          option_yes:
+            label: Yes
+          option_no:
+            label: No
+        custom_select_error: Select yes if you’re off work because you’re ill
+          or self-isolating
+  going_in_to_work:
+    title: Going in to work
+    questions:
+      worried_about_work:
+        title: Are you worried about going in to work?
+        options:
+          option_yes:
+            label: Yes
+          option_no:
+            label: No
+          not_sure:
+            label: Not sure
+        custom_select_error: Select yes if you’re worried about going in to work
+  somewhere_to_live:
+    title: Having somewhere to live
+    questions:
+      have_somewhere_to_live:
+        title: Do you have somewhere to live?
+        options:
+          option_yes:
+            label: Yes
+          option_may_lose:
+            label: I do now but I might lose it
+          option_no:
+            label: No
+          not_sure:
+            label: Not sure
+        custom_select_error: Select if you have somewhere to live
+      have_you_been_evicted:
+        title: Have you been evicted?
+        options:
+          option_yes:
+            label: Yes
+          option_soon:
+            label: I might be evicted soon
+          option_no:
+            label: No
+          not_sure:
+            label: Not sure
+        custom_select_error: Select if you have been evicted or might be soon
+  mental_health:
+    title: Mental health and wellbeing
+    need_help_with_label: Mental health and wellbeing, including information for
+      children
+    questions:
+      mental_health_worries:
+        title: Are you worried about your mental health, or another adult or child’s
+          mental health?
+        options:
+          option_yes:
+            label: Yes, I am
+          option_no:
+            label: No, I’m not
+          not_sure:
+            label: Not sure
+        custom_select_error: Select yes if you’re worried about your mental health
+          or someone else’s mental health

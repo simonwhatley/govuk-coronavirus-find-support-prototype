@@ -71,7 +71,7 @@
     "name": "answers[unsafe]",
     "position": 3,
     "caption": "Feeling unsafe",
-    "title": "Do you fee safe where you live?",
+    "title": "Do you feel safe where you live?",
     "type": "single",
     "items": [
       {

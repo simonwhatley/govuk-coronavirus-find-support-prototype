@@ -29,6 +29,8 @@
 {% from "govuk/components/textarea/macro.njk"         import govukTextarea %}
 {% from "govuk/components/warning-text/macro.njk"     import govukWarningText %}
 
+{% from "govuk-pub/components/escape-link/macro.njk"        import govukPubEscapeLink %}
+
 {% block head %}
   {% include "includes/head.html" %}
 {% endblock %}
@@ -42,25 +44,22 @@
   {# Set serviceName in config.js. #}
   {{ govukHeader({
     homepageUrl: "/",
-    serviceName: serviceName,
     serviceUrl: "/",
     containerClasses: "govuk-width-container"
   }) }}
+  {% block pageHeader %}{% endblock %}
 {% endblock %}
 
 {% set mainClasses = mainClasses | default("govuk-main-wrapper--auto-spacing") %}
 
 {% if useAutoStoreData %}
   {% block footer %}
+    {{ govukPubEscapeLink({
+      text: "Leave this site",
+      href: "https://www.bbc.co.uk"
+    }) }}
     {{ govukFooter({
-      meta: {
-        items: [
-          {
-            href: "/prototype-admin/clear-data",
-            text: "Clear data"
-          }
-        ]
-      }
+
     }) }}
   {% endblock %}
 {% endif %}
