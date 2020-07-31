@@ -1,181 +1,188 @@
 ---
-en:
-  location:
-    questions:
-      nation:
-        title: Where do you want to find information about?
-        options:
-          option_england:
-            label: England
-          option_scotland:
-            label: Scotland
-          option_wales:
-            label: Wales
-          optopn_northern_ireland:
-            label: Northern Ireland
-        custom_select_error: Select where you want to find information about
-  filter_questions:
-    questions:
-      need_help_with:
-        title: What do you need help with because of coronavirus?
-        hint_text: Select all that apply
-        options:
-        - Not sure
-        custom_select_error: Select what you need to find help with, or ‘Not sure’
-  feeling_unsafe:
-    title: Feeling unsafe
-    need_help_with_label: Feeling unsafe where you live, or what to do if you’re
-      worried about the safety of another adult or child
-    questions:
-      feel_safe:
-        title: Do you feel safe where you live?
-        options:
-          option_yes:
-            label: Yes
-          option_yes_someone_else:
-            label: Yes, but I’m worried about the safety of another adult or a
-              child
-          option_no:
-            label: No
-          not_sure:
-            label: Not sure
-        custom_select_error: Select if you feel safe where you live or if you’re
-          worried about someone else
-  paying_bills:
-    title: Paying your rent, mortgage, or bills
-    questions:
-      afford_rent_mortgage_bills:
-        title: Are you finding it hard to pay your rent, mortgage or bills?
-        options:
-          option_yes:
-            label: Yes
-          option_no:
-            label: No
-          not_sure:
-            label: Not sure
-        custom_select_error: Select yes if you’re finding it hard to pay your
-          rent, mortgage or bills
-  getting_food:
-    title: Getting food
-    questions:
-      afford_food:
-        title: Are you finding it hard to afford food?
-        options:
-          option_yes:
-            label: Yes
-          option_no:
-            label: No
-          not_sure:
-            label: Not sure
-        custom_select_error: Select yes if you’re finding it hard to afford food
-      get_food:
-        title: Are you able to get food?
-        options:
-          option_yes:
-            label: Yes
-          option_no:
-            label: No
-          not_sure:
-            label: Not sure
-        custom_select_error: Select yes if you’re able to get food
-  being_unemployed:
-    title: Being made redundant or unemployed, or not having any work
-    questions:
-      self_employed:
-        title: Are you self-employed or a sole trader?
-        title_caption: Being unemployed or not having any work
-        options:
-          option_yes:
-            label: Yes
-          option_no:
-            label: No
-          not_sure:
-            label: Not sure
-        skip_next_question_options:
-        - 'Yes'
-        custom_select_error: Select yes if you’re self-employed or a sole trader
-      have_you_been_made_unemployed:
-        title: Have you been made redundant or told to stop working?
-        title_caption: Being made redundant or unemployed, or not having any work
-        options:
-          option_yes:
-            label: Yes, I’ve been made redundant or unemployed, or I might be soon
-          option_might_be:
-            label: Yes, I’ve been put on temporary leave (on furlough), or might
-              be soon
-          option_no:
-            label: No
-          not_sure:
-            label: Not sure
-        skip_next_question_options:
-        - Yes, I’ve been made redundant or unemployed, or I might be soon
-        - Yes, I’ve been put on temporary leave (on furlough), or might be soon
-        custom_select_error: Select if you’ve been made redundant or unemployed, or put on
-          temporary leave (on furlough)
-      are_you_off_work_ill:
-        title: Are you off work because you’re ill or self-isolating?
-        title_caption: Going in to work
-        options:
-          option_yes:
-            label: Yes
-          option_no:
-            label: No
-        custom_select_error: Select yes if you’re off work because you’re ill
-          or self-isolating
-  going_in_to_work:
-    title: Going in to work
-    questions:
-      worried_about_work:
-        title: Are you worried about going in to work?
-        options:
-          option_yes:
-            label: Yes
-          option_no:
-            label: No
-          not_sure:
-            label: Not sure
-        custom_select_error: Select yes if you’re worried about going in to work
-  somewhere_to_live:
-    title: Having somewhere to live
-    questions:
-      have_somewhere_to_live:
-        title: Do you have somewhere to live?
-        options:
-          option_yes:
-            label: Yes
-          option_may_lose:
-            label: I do now but I might lose it
-          option_no:
-            label: No
-          not_sure:
-            label: Not sure
-        custom_select_error: Select if you have somewhere to live
-      have_you_been_evicted:
-        title: Have you been evicted?
-        options:
-          option_yes:
-            label: Yes
-          option_soon:
-            label: I might be evicted soon
-          option_no:
-            label: No
-          not_sure:
-            label: Not sure
-        custom_select_error: Select if you have been evicted or might be soon
-  mental_health:
-    title: Mental health and wellbeing
-    need_help_with_label: Mental health and wellbeing, including information for
-      children
-    questions:
-      mental_health_worries:
-        title: Are you worried about your mental health, or another adult or child’s
-          mental health?
-        options:
-          option_yes:
-            label: Yes, I am
-          option_no:
-            label: No, I’m not
-          not_sure:
-            label: Not sure
-        custom_select_error: Select yes if you’re worried about your mental health
-          or someone else’s mental health
+- id: nation
+  name: answers[nation]
+  position: 1
+  title: Where do you want to find information about?
+  type: single
+  items:
+  - value: england
+    text: England
+  - value: scotland
+    text: Scotland
+  - value: wales
+    text: Wales
+  - value: northern_ireland
+    text: Northern Ireland
+- id: help
+  name: answers[help]
+  position: 2
+  title: What do you need help with because of coronavirus?
+  hint: Select all that apply
+  type: multiple
+  items:
+  - value: feeling_unsafe
+    text: Feeling unsafe where you live, or being worried about someone else
+  - value: paying_bills
+    text: Paying bills
+  - value: getting_food
+    text: Getting food
+  - value: being_unemployed
+    text: Being made redundant or unemployed, or not having any work
+  - value: going_to_work
+    text: Going in to work
+  - value: somewhere_to_live
+    text: Having somewhere to live
+  - value: mental_health
+    text: Mental health and wellbeing
+  - value: not_sure
+    text: I'm not sure
+- id: feel_safe
+  name: answers[feel_safe]
+  position: 3
+  caption: Feeling unsafe
+  title: Do you feel safe where you live?
+  type: single
+  items:
+  - value: 'yes'
+    text: 'Yes'
+  - value: someone_else
+    text: Yes, but I'm concerned about the safety of someone else
+  - value: 'no'
+    text: 'No'
+  - value: not_sure
+    text: I'm not sure
+- id: afford_rent_mortgage_bills
+  name: answers[afford_rent_mortgage_bills]
+  position: 4
+  caption: Paying bills
+  title: Are you finding it hard to pay your rent, mortgage or bills?
+  type: single
+  items:
+  - value: 'yes'
+    text: 'Yes'
+  - value: 'no'
+    text: 'No'
+  - value: not_sure
+    text: I'm not sure
+- id: afford_food
+  name: answers[afford_food]
+  position: 5
+  caption: Getting food
+  title: Are you finding it hard to afford food?
+  type: single
+  items:
+  - value: 'yes'
+    text: 'Yes'
+  - value: 'no'
+    text: 'No'
+  - value: not_sure
+    text: I'm not sure
+- id: get_food
+  name: answers[get_food]
+  position: 6
+  caption: Getting food
+  title: Are you able to get food?
+  type: single
+  items:
+  - value: 'yes'
+    text: 'Yes'
+  - value: 'no'
+    text: 'No'
+  - value: not_sure
+    text: I'm not sure
+- id: self_employed
+  name: answers[self_employed]
+  position: 7
+  caption: Being made redundant or unemployed, or not having any work
+  title: Are you self-employed or a sole trader?
+  type: single
+  items:
+  - value: 'yes'
+    text: 'Yes'
+  - value: 'no'
+    text: 'No'
+  - value: not_sure
+    text: I'm not sure
+- id: have_you_been_made_unemployed
+  name: answers[have_you_been_made_unemployed]
+  position: 8
+  caption: Being made redundant or unemployed, or not having any work
+  title: Have you been made redundant or told to stop working?
+  type: single
+  items:
+  - value: yes
+    text: Yes, I've been made unemployed, or might be soon
+  - value: might_be
+    text: Yes, I've been put on temporary leave (on furlough), or might be soon
+  - value: 'no'
+    text: 'No'
+  - value: not_sure
+    text: I'm not sure
+- id: are_you_off_work_ill
+  name: answers[are_you_off_work_ill]
+  position: 9
+  caption: Being made redundant or unemployed, or not having any work
+  title: Are you off work because you’re ill or self-isolating?
+  type: single
+  items:
+  - value: 'yes'
+    text: 'Yes'
+  - value: 'no'
+    text: 'No'
+- id: worried_about_work
+  name: answers[worried_about_work]
+  position: 10
+  caption: Going in to work
+  title: Are you worried about going in to work?
+  type: single
+  items:
+  - value: 'yes'
+    text: 'Yes'
+  - value: 'no'
+    text: 'No'
+  - value: not_sure
+    text: I'm not sure
+- id: have_somewhere_to_live
+  name: answers[have_somewhere_to_live]
+  position: 11
+  caption: Having somewhere to live
+  title: Do you have somewhere to live?
+  type: single
+  items:
+  - value: 'yes'
+    text: 'Yes'
+  - value: may_lose
+    text: I do now but I might lose it
+  - value: 'no'
+    text: 'No'
+  - value: not_sure
+    text: I'm not sure
+- id: have_you_been_evicted
+  name: answers[have_you_been_evicted]
+  position: 12
+  caption: Having somewhere to live
+  title: Have you been evicted?
+  type: single
+  items:
+  - value: 'yes'
+    text: 'Yes'
+  - value: soon
+    text: I might me evicted soon
+  - value: 'no'
+    text: 'No'
+  - value: not_sure
+    text: I'm not sure
+- id: mental_health_worries
+  name: answers[mental_health_worries]
+  position: 13
+  caption: Mental health and wellbeing
+  title: Are you worried about your mental health, or another adult or child’s
+    mental health?
+  type: single
+  items:
+  - value: 'yes'
+    text: Yes, I am
+  - value: 'no'
+    text: No, I'm not
+  - value: not_sure
+    text: I'm not sure

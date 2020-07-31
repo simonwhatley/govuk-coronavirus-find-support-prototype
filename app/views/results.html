@@ -18,7 +18,7 @@
 {% endblock %}
 
 {% block content %}
-{{data.answers.unsafe}}
+
 {% for section, values in results %}
   {% if data.answers and section in data.answers.help %}
     <section class="app-c-actions-group">
@@ -28,42 +28,42 @@
         </div>
         <div class="govuk-grid-column-two-thirds">
           {%- for question, answers in values %}
-            {{question}}
-            {{answers.show_options}}
-            <div data-ec-list-question="{{ answers.title }}">
-              <h3 class="govuk-heading-m">{{ answers.title }}</h3>
-              <ul class="govuk-list">
-                {%- for item in answers.items %}
-                  {%- if not item.show_to_nations or data.answers.nation in item.show_to_nations %}
-                    <li>
-                        {%- if item.href %}
-                          <a class="govuk-link" href="{{ item.href }}">
-                            {{- item.text | safe -}}
-                          </a>
-                        {% else %}
-                          {{- item.text | safe -}}
-                        {% endif -%}
-                    </li>
-                  {% endif -%}
-                {% endfor -%}
-              </ul>
-              {% if answers.support_and_advice_items %}
-                <h4 class="govuk-heading-s">Support and advice</h4>
+            {#%- if data.answers[question] in answers.show_options %#}
+              <div data-ec-list-question="{{ answers.title }}">
+                <h3 class="govuk-heading-m">{{ answers.title }}</h3>
                 <ul class="govuk-list">
-                  {% for item in answers.support_and_advice_items %}
-                    <li>
-                        {%- if item.href %}
-                          <a class="govuk-link" href="{{ item.href }}">
+                  {%- for item in answers.items %}
+                    {%- if not item.show_to_nations or data.answers.nation in item.show_to_nations %}
+                      <li>
+                          {%- if item.href %}
+                            <a class="govuk-link" href="{{ item.href }}">
+                              {{- item.text | safe -}}
+                            </a>
+                          {% else %}
                             {{- item.text | safe -}}
-                          </a>
-                        {% else %}
-                          {{- item.text | safe -}}
-                        {% endif -%}
-                    </li>
-                  {% endfor %}
+                          {% endif -%}
+                      </li>
+                    {% endif -%}
+                  {% endfor -%}
                 </ul>
-              {% endif -%}
-            </div>
+                {% if answers.support_and_advice_items %}
+                  <h4 class="govuk-heading-s">Support and advice</h4>
+                  <ul class="govuk-list">
+                    {% for item in answers.support_and_advice_items %}
+                      <li>
+                          {%- if item.href %}
+                            <a class="govuk-link" href="{{ item.href }}">
+                              {{- item.text | safe -}}
+                            </a>
+                          {% else %}
+                            {{- item.text | safe -}}
+                          {% endif -%}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif -%}
+              </div>
+            {#% endif -%#}
           {% endfor -%}
 
           <div class="app-c-callout">

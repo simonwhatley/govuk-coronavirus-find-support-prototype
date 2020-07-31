@@ -1,6 +1,11 @@
 'use strict'
 
-const questions = require('../data/questions.json')
+const path = require('path')
+const fs = require('fs')
+const yaml = require('js-yaml')
+
+const directoryPath = path.join(__dirname, '../data/')
+const questions = yaml.safeLoad(fs.readFileSync(directoryPath + 'questions.yaml', 'utf8'))
 
 exports.findQuestionById = (questionId) => {
   const question = questions.filter(obj => obj.id === questionId)

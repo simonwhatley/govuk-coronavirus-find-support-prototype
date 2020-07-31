@@ -50,7 +50,7 @@ router.post('/nation', checkHasAnswers, (req, res) => {
     const error = {}
     error.fieldName = 'nation'
     error.href = '#nation'
-    error.text = 'Choose where you live'
+    error.text = 'Select where you want to find information about'
     errors.push(error)
   }
 
@@ -90,7 +90,7 @@ router.post('/help', checkHasAnswers, (req, res) => {
     const error = {}
     error.fieldName = 'help'
     error.href = '#help'
-    error.text = 'Choose what you need to find help with, or ‘I’m not sure’'
+    error.text = 'Select what you need to find help with, or ‘Not sure’'
     errors.push(error)
   }
 
@@ -115,7 +115,7 @@ router.post('/help', checkHasAnswers, (req, res) => {
 router.get('/unsafe', (req, res) => {
   if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('feeling_unsafe') !== -1) {
     res.render('question', {
-      question: Questions.question('unsafe', req.session.data.answers.unsafe),
+      question: Questions.question('feel_safe', req.session.data.answers.feel_safe),
       actions: {
         save: `${req.baseUrl}/unsafe`,
         back: `${req.baseUrl}/`,
@@ -130,17 +130,17 @@ router.get('/unsafe', (req, res) => {
 router.post('/unsafe', checkHasAnswers, (req, res) => {
   const errors = []
 
-  if (req.session.data.answers.unsafe === undefined) {
+  if (req.session.data.answers.feel_safe === undefined) {
     const error = {}
-    error.fieldName = 'unsafe'
-    error.href = '#unsafe'
-    error.text = 'Choose whether you feel safe where you live'
+    error.fieldName = 'feel_safe'
+    error.href = '#feel_safe'
+    error.text = 'Select if you feel safe where you live or if you’re worried about someone else'
     errors.push(error)
   }
 
   if (errors.length) {
     res.render('question', {
-      question: Questions.question('unsafe', req.session.data.answers.unsafe),
+      question: Questions.question('feel_safe', req.session.data.answers.feel_safe),
       errors: errors,
       actions: {
         save: `${req.baseUrl}/unsafe`,
@@ -159,7 +159,7 @@ router.post('/unsafe', checkHasAnswers, (req, res) => {
 router.get('/bills', (req, res) => {
   if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('paying_bills') !== -1) {
     res.render('question', {
-      question: Questions.question('bills', req.session.data.answers.bills),
+      question: Questions.question('afford_rent_mortgage_bills', req.session.data.answers.afford_rent_mortgage_bills),
       actions: {
         save: `${req.baseUrl}/bills`,
         back: `${req.baseUrl}/`,
@@ -174,17 +174,17 @@ router.get('/bills', (req, res) => {
 router.post('/bills', checkHasAnswers, (req, res) => {
   const errors = []
 
-  if (req.session.data.answers.bills === undefined) {
+  if (req.session.data.answers.afford_rent_mortgage_bills === undefined) {
     const error = {}
-    error.fieldName = 'bills'
-    error.href = '#bills'
-    error.text = 'Choose whether you are finding it hard to afford rent, your mortgage or bills'
+    error.fieldName = 'afford_rent_mortgage_bills'
+    error.href = '#afford_rent_mortgage_bills'
+    error.text = 'Select yes if you’re finding it hard to pay your rent, mortgage or bills'
     errors.push(error)
   }
 
   if (errors.length) {
     res.render('question', {
-      question: Questions.question('bills', req.session.data.answers.bills),
+      question: Questions.question('afford_rent_mortgage_bills', req.session.data.answers.afford_rent_mortgage_bills),
       errors: errors,
       actions: {
         save: `${req.baseUrl}/bills`,
@@ -203,7 +203,7 @@ router.post('/bills', checkHasAnswers, (req, res) => {
 router.get('/afford-food', (req, res) => {
   if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('getting_food') !== -1) {
     res.render('question', {
-      question: Questions.question('afford-food', req.session.data.answers['afford-food']),
+      question: Questions.question('afford_food', req.session.data.answers.afford_food),
       actions: {
         save: `${req.baseUrl}/afford-food`,
         back: `${req.baseUrl}/`,
@@ -218,17 +218,17 @@ router.get('/afford-food', (req, res) => {
 router.post('/afford-food', checkHasAnswers, (req, res) => {
   const errors = []
 
-  if (req.session.data.answers['afford-food'] === undefined) {
+  if (req.session.data.answers.afford_food === undefined) {
     const error = {}
-    error.fieldName = 'afford-food'
-    error.href = '#afford-food'
-    error.text = 'Choose whether you are finding it hard to afford food'
+    error.fieldName = 'afford_food'
+    error.href = '#afford_food'
+    error.text = 'Select yes if you’re finding it hard to afford food'
     errors.push(error)
   }
 
   if (errors.length) {
     res.render('question', {
-      question: Questions.question('afford-food', req.session.data.answers['afford-food']),
+      question: Questions.question('afford_food', req.session.data.answers.afford_food),
       errors: errors,
       actions: {
         save: `${req.baseUrl}/afford-food`,
@@ -248,7 +248,7 @@ router.post('/afford-food', checkHasAnswers, (req, res) => {
 router.get('/get-food', (req, res) => {
   if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('getting_food') !== -1) {
     res.render('question', {
-      question: Questions.question('get-food', req.session.data.answers['get-food']),
+      question: Questions.question('get_food', req.session.data.answers.get_food),
       actions: {
         save: `${req.baseUrl}/get-food`,
         back: `${req.baseUrl}/`,
@@ -263,17 +263,17 @@ router.get('/get-food', (req, res) => {
 router.post('/get-food', checkHasAnswers, (req, res) => {
   const errors = []
 
-  if (req.session.data.answers['get-food'] === undefined) {
+  if (req.session.data.answers.get_food === undefined) {
     const error = {}
-    error.fieldName = 'get-food'
-    error.href = '#get-food'
-    error.text = 'Choose whether you are finding it hard to get food'
+    error.fieldName = 'get_food'
+    error.href = '#get_food'
+    error.text = 'Select yes if you’re able to get food'
     errors.push(error)
   }
 
   if (errors.length) {
     res.render('question', {
-      question: Questions.question('get-food', req.session.data.answers['get-food']),
+      question: Questions.question('get_food', req.session.data.answers.get_food),
       errors: errors,
       actions: {
         save: `${req.baseUrl}/get-food`,
@@ -292,7 +292,7 @@ router.post('/get-food', checkHasAnswers, (req, res) => {
 router.get('/self-employed', (req, res) => {
   if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('being_unemployed') !== -1) {
     res.render('question', {
-      question: Questions.question('self-employed', req.session.data.answers['self-employed']),
+      question: Questions.question('self_employed', req.session.data.answers.self_employed),
       actions: {
         save: `${req.baseUrl}/self-employed`,
         back: `${req.baseUrl}/`,
@@ -307,17 +307,17 @@ router.get('/self-employed', (req, res) => {
 router.post('/self-employed', checkHasAnswers, (req, res) => {
   const errors = []
 
-  if (req.session.data.answers['self-employed'] === undefined) {
+  if (req.session.data.answers.self_employed === undefined) {
     const error = {}
-    error.fieldName = 'self-employed'
-    error.href = '#self-employed'
-    error.text = 'Choose whether you are self-employed or a sole trader'
+    error.fieldName = 'self_employed'
+    error.href = '#self_employed'
+    error.text = 'Select yes if you’re self-employed or a sole trader'
     errors.push(error)
   }
 
   if (errors.length) {
     res.render('question', {
-      question: Questions.question('self-employed', req.session.data.answers['self-employed']),
+      question: Questions.question('self_employed', req.session.data.answers.self_employed),
       errors: errors,
       actions: {
         save: `${req.baseUrl}/self-employed`,
@@ -336,7 +336,7 @@ router.post('/self-employed', checkHasAnswers, (req, res) => {
 router.get('/stop-working', (req, res) => {
   if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('being_unemployed') !== -1) {
     res.render('question', {
-      question: Questions.question('stop-working', req.session.data.answers['stop-working']),
+      question: Questions.question('have_you_been_made_unemployed', req.session.data.answers.have_you_been_made_unemployed),
       actions: {
         save: `${req.baseUrl}/stop-working`,
         back: `${req.baseUrl}/`,
@@ -351,17 +351,17 @@ router.get('/stop-working', (req, res) => {
 router.post('/stop-working', checkHasAnswers, (req, res) => {
   const errors = []
 
-  if (req.session.data.answers['stop-working'] === undefined) {
+  if (req.session.data.answers.have_you_been_made_unemployed === undefined) {
     const error = {}
-    error.fieldName = 'stop-working'
-    error.href = '#stop-working'
-    error.text = 'Choose whether you have been told to stop working'
+    error.fieldName = 'have_you_been_made_unemployed'
+    error.href = '#have_you_been_made_unemployed'
+    error.text = 'Select if you’ve been made redundant or unemployed, or put on temporary leave (on furlough)'
     errors.push(error)
   }
 
   if (errors.length) {
     res.render('question', {
-      question: Questions.question('stop-working', req.session.data.answers['stop-working']),
+      question: Questions.question('have_you_been_made_unemployed', req.session.data.answers.have_you_been_made_unemployed),
       errors: errors,
       actions: {
         save: `${req.baseUrl}/stop-working`,
@@ -380,7 +380,7 @@ router.post('/stop-working', checkHasAnswers, (req, res) => {
 router.get('/off-work', (req, res) => {
   if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('being_unemployed') !== -1) {
     res.render('question', {
-      question: Questions.question('off-work', req.session.data.answers['off-work']),
+      question: Questions.question('are_you_off_work_ill', req.session.data.answers.are_you_off_work_ill),
       actions: {
         save: `${req.baseUrl}/off-work`,
         back: `${req.baseUrl}/`,
@@ -395,17 +395,17 @@ router.get('/off-work', (req, res) => {
 router.post('/off-work', checkHasAnswers, (req, res) => {
   const errors = []
 
-  if (req.session.data.answers['off-work'] === undefined) {
+  if (req.session.data.answers.are_you_off_work_ill === undefined) {
     const error = {}
-    error.fieldName = 'off-work'
-    error.href = '#off-work'
-    error.text = 'Choose whether you are off work because you’re ill or self-isolating'
+    error.fieldName = 'are_you_off_work_ill'
+    error.href = '#are_you_off_work_ill'
+    error.text = 'Select yes if you’re off work because you’re ill or self-isolating'
     errors.push(error)
   }
 
   if (errors.length) {
     res.render('question', {
-      question: Questions.question('off-work', req.session.data.answers['off-work']),
+      question: Questions.question('are_you_off_work_ill', req.session.data.answers.are_you_off_work_ill),
       errors: errors,
       actions: {
         save: `${req.baseUrl}/off-work`,
@@ -424,7 +424,7 @@ router.post('/off-work', checkHasAnswers, (req, res) => {
 router.get('/going-to-work', (req, res) => {
   if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('going_to_work') !== -1) {
     res.render('question', {
-      question: Questions.question('going-to-work', req.session.data.answers['going-to-work']),
+      question: Questions.question('worried_about_work', req.session.data.answers.worried_about_work),
       actions: {
         save: `${req.baseUrl}/going-to-work`,
         back: `${req.baseUrl}/`,
@@ -439,17 +439,17 @@ router.get('/going-to-work', (req, res) => {
 router.post('/going-to-work', checkHasAnswers, (req, res) => {
   const errors = []
 
-  if (req.session.data.answers['going-to-work'] === undefined) {
+  if (req.session.data.answers.worried_about_work === undefined) {
     const error = {}
-    error.fieldName = 'going-to-work'
-    error.href = '#going-to-work'
-    error.text = 'Choose whether you are worried about going in to work'
+    error.fieldName = 'worried_about_work'
+    error.href = '#worried_about_work'
+    error.text = 'Select yes if you’re worried about going in to work'
     errors.push(error)
   }
 
   if (errors.length) {
     res.render('question', {
-      question: Questions.question('going-to-work', req.session.data.answers['going-to-work']),
+      question: Questions.question('worried_about_work', req.session.data.answers.worried_about_work),
       errors: errors,
       actions: {
         save: `${req.baseUrl}/going-to-work`,
@@ -468,7 +468,7 @@ router.post('/going-to-work', checkHasAnswers, (req, res) => {
 router.get('/somewhere-to-live', (req, res) => {
   if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('somewhere_to_live') !== -1) {
     res.render('question', {
-      question: Questions.question('somewhere-to-live', req.session.data.answers['somewhere-to-live']),
+      question: Questions.question('have_somewhere_to_live', req.session.data.answers.have_somewhere_to_live),
       actions: {
         save: `${req.baseUrl}/somewhere-to-live`,
         back: `${req.baseUrl}/`,
@@ -483,17 +483,17 @@ router.get('/somewhere-to-live', (req, res) => {
 router.post('/somewhere-to-live', checkHasAnswers, (req, res) => {
   const errors = []
 
-  if (req.session.data.answers['somewhere-to-live'] === undefined) {
+  if (req.session.data.answers.have_somewhere_to_live === undefined) {
     const error = {}
-    error.fieldName = 'somewhere-to-live'
-    error.href = '#somewhere-to-live'
-    error.text = 'Choose whether you have somewhere to live'
+    error.fieldName = 'have_somewhere_to_live'
+    error.href = '#have_somewhere_to_live'
+    error.text = 'Select if you have somewhere to live'
     errors.push(error)
   }
 
   if (errors.length) {
     res.render('question', {
-      question: Questions.question('somewhere-to-live', req.session.data.answers['somewhere-to-live']),
+      question: Questions.question('have_somewhere_to_live', req.session.data.answers.have_somewhere_to_live),
       errors: errors,
       actions: {
         save: `${req.baseUrl}/somewhere-to-live`,
@@ -512,7 +512,7 @@ router.post('/somewhere-to-live', checkHasAnswers, (req, res) => {
 router.get('/evicted', (req, res) => {
   if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('somewhere_to_live') !== -1) {
     res.render('question', {
-      question: Questions.question('evicted', req.session.data.answers.evicted),
+      question: Questions.question('have_you_been_evicted', req.session.data.answers.have_you_been_evicted),
       actions: {
         save: `${req.baseUrl}/evicted`,
         back: `${req.baseUrl}/`,
@@ -527,17 +527,17 @@ router.get('/evicted', (req, res) => {
 router.post('/evicted', checkHasAnswers, (req, res) => {
   const errors = []
 
-  if (req.session.data.answers.evicted === undefined) {
+  if (req.session.data.answers.have_you_been_evicted === undefined) {
     const error = {}
-    error.fieldName = 'evicted'
-    error.href = '#evicted'
-    error.text = 'Choose whether you have been evicted'
+    error.fieldName = 'have_you_been_evicted'
+    error.href = '#have_you_been_evicted'
+    error.text = 'Select if you have been evicted or might be soon'
     errors.push(error)
   }
 
   if (errors.length) {
     res.render('question', {
-      question: Questions.question('evicted', req.session.data.answers.evicted),
+      question: Questions.question('have_you_been_evicted', req.session.data.answers.have_you_been_evicted),
       errors: errors,
       actions: {
         save: `${req.baseUrl}/evicted`,
@@ -556,7 +556,7 @@ router.post('/evicted', checkHasAnswers, (req, res) => {
 router.get('/worried', (req, res) => {
   if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('mental_health') !== -1) {
     res.render('question', {
-      question: Questions.question('worried', req.session.data.answers.worried),
+      question: Questions.question('mental_health_worries', req.session.data.answers.mental_health_worries),
       actions: {
         save: `${req.baseUrl}/worried`,
         back: `${req.baseUrl}/`,
@@ -571,17 +571,17 @@ router.get('/worried', (req, res) => {
 router.post('/worried', checkHasAnswers, (req, res) => {
   const errors = []
 
-  if (req.session.data.answers.worried === undefined) {
+  if (req.session.data.answers.mental_health_worries === undefined) {
     const error = {}
-    error.fieldName = 'worried'
-    error.href = '#worried'
-    error.text = 'Choose whether you are worried about either your mental health or someone else’s mental health'
+    error.fieldName = 'mental_health_worries'
+    error.href = '#mental_health_worries'
+    error.text = 'Select yes if you’re worried about your mental health or someone else’s mental health'
     errors.push(error)
   }
 
   if (errors.length) {
     res.render('question', {
-      question: Questions.question('worried', req.session.data.answers.worried),
+      question: Questions.question('mental_health_worries', req.session.data.answers.mental_health_worries),
       errors: errors,
       actions: {
         save: `${req.baseUrl}/worried`,
@@ -597,7 +597,8 @@ router.post('/worried', checkHasAnswers, (req, res) => {
 // --------------------------------------------------
 // Results
 // --------------------------------------------------
-router.get('/results', (req, res) => {
+router.get('/results', checkHasAnswers, (req, res) => {
+
   res.render('results', {
     results: Results.find(),
     actions: {
