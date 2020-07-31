@@ -1,10 +1,10 @@
 // -------------------------------------------------------------------
 // Imports and setup
 // -------------------------------------------------------------------
-const _ = require('lodash');
+const _ = require('lodash')
 
 // Leave this filters line
-let filters = {}
+const filters = {}
 
 /*
   ====================================================================
@@ -35,9 +35,9 @@ let filters = {}
 */
 
 filters.objectArrayToArray = array => {
-  let newArray = []
+  const newArray = []
   array.forEach(item => {
-    let newItem = []
+    const newItem = []
     Object.keys(item).forEach(part => {
       newItem.push(item[part])
     })
@@ -57,32 +57,32 @@ filters.objectArrayToArray = array => {
 
   [Usage here]
 
-
 */
 
 filters.keepAttributes = (array, keysToKeep) => {
   const keepKeys = theObject => {
-    let newObj = {}
+    const newObj = {}
     // Re-orders and keeps only selected keys
 
     // Coerce string to array
-    if (_.isString(keysToKeep)) keysToKeep = [keysToKeep]
-
+    if (_.isString(keysToKeep)) {
+      keysToKeep = [keysToKeep]
+    }
 
     keysToKeep.forEach(key => {
-      let objectKeys = Object.keys(theObject)
-      if (objectKeys.includes(key)){
+      const objectKeys = Object.keys(theObject)
+      if (objectKeys.includes(key)) {
         newObj[key] = theObject[key]
       }
     })
     return newObj
   }
   // Array of objects
-  if (_.isArray(array)){
+  if (_.isArray(array)) {
     return array.map(keepKeys)
+  } else { // Single object
+    return keepKeys(array)
   }
-  // Single object
-  else return keepKeys(array)
 }
 
 /*
@@ -96,13 +96,12 @@ filters.keepAttributes = (array, keysToKeep) => {
 
   [Usage here]
 
-
 */
 
 filters.setAttribute = (dictionary, key, value) => {
-  var newDictionary = Object.assign({}, dictionary);
-  newDictionary[key] = value;
-  return newDictionary;
+  const newDictionary = Object.assign({}, dictionary)
+  newDictionary[key] = value
+  return newDictionary
 }
 
 /*
@@ -116,13 +115,12 @@ filters.setAttribute = (dictionary, key, value) => {
 
   [Usage here]
 
-
 */
 
 filters.clearAttribute = (dictionary, key) => {
-  var newDictionary = Object.assign({}, dictionary);
-  newDictionary[key] = '';
-  return newDictionary;
+  const newDictionary = Object.assign({}, dictionary)
+  newDictionary[key] = ''
+  return newDictionary
 }
 
 /*
@@ -136,23 +134,20 @@ filters.clearAttribute = (dictionary, key) => {
 
   [Usage here]
 
-
 */
 
 filters.renameAttribute = (dictionary, oldKey, newKey) => {
   const keys = Object.keys(dictionary)
-  const newObj = keys.reduce((acc, val)=>{
-    if(val === oldKey){
-        acc[newKey] = dictionary[oldKey]
-    }
-    else {
-        acc[val] = dictionary[val]
+  const newObj = keys.reduce((acc, val) => {
+    if (val === oldKey) {
+      acc[newKey] = dictionary[oldKey]
+    } else {
+      acc[val] = dictionary[val]
     }
     return acc
   }, {})
-
   return newObj
-};
+}
 
 /*
   ====================================================================
@@ -165,12 +160,11 @@ filters.renameAttribute = (dictionary, oldKey, newKey) => {
 
   [Usage here]
 
-
 */
 
 filters.deleteAttribute = (dictionary, key) => {
   // Don't modify the original
-  var newDictionary = Object.assign({}, dictionary)
+  const newDictionary = Object.assign({}, dictionary)
   delete newDictionary[key]
   return newDictionary
 }
@@ -186,19 +180,18 @@ filters.deleteAttribute = (dictionary, key) => {
 
   [Usage here]
 
-
 */
 
 filters.deleteBlankAttributes = (dictionary) => {
   // Don't modify the original
-  var newDictionary = Object.assign({}, dictionary)
-  var keys = Object.keys(newDictionary)
+  const newDictionary = Object.assign({}, dictionary)
+  const keys = Object.keys(newDictionary)
   keys.forEach(key => {
-    if (newDictionary[key] == ""){
+    if (newDictionary[key] === '') {
       delete newDictionary[key]
     }
   })
-  return newDictionary;
+  return newDictionary
 }
 
 /*
@@ -212,15 +205,14 @@ filters.deleteBlankAttributes = (dictionary) => {
 
   [Usage here]
 
-
 */
 
 filters.filterAttr = function (arr, attr, test) {
-  var result = arr.filter(function (item) {
-     return item[attr] === test;
-  });
+  const result = arr.filter(function (item) {
+    return item[attr] === test
+  })
   return result
-};
+}
 
 /*
   ====================================================================
@@ -233,15 +225,14 @@ filters.filterAttr = function (arr, attr, test) {
 
   [Usage here]
 
-
 */
 
 filters.removeAttr = function (arr, attr, test) {
-  var result = arr.filter(function (item) {
-     return item[attr] !== test;
-  });
+  const result = arr.filter(function (item) {
+    return item[attr] !== test
+  })
   return result
-};
+}
 
 // -------------------------------------------------------------------
 // keep the following line to return your filters to the app

@@ -1,10 +1,10 @@
 // -------------------------------------------------------------------
 // Imports and setup
 // -------------------------------------------------------------------
-const faker = require("faker");
+const faker = require('faker')
 
 // Leave this filters line
-let filters = {}
+const filters = {}
 
 /*
   ====================================================================
@@ -21,17 +21,17 @@ let filters = {}
 
 filters.fakePerson = (string) => {
   // faker.seed(123)
-  let firstName = faker.name.firstName();
-  let lastName = faker.name.lastName();
-  let fullName = firstName + " " + lastName;
-  let email = fullName.split(' ').join('.').toLowerCase() + "@example.com";
-  let user = {
+  const firstName = faker.name.firstName()
+  const lastName = faker.name.lastName()
+  const fullName = firstName + ' ' + lastName
+  const email = fullName.split(' ').join('.').toLowerCase() + '@example.com'
+  const user = {
     firstName: firstName,
     lastName: lastName,
     fullName: fullName,
     email: email
   }
-  return user;
+  return user
 }
 
 /*
@@ -48,10 +48,9 @@ filters.fakePerson = (string) => {
 */
 
 filters.fakeAddress = (string) => {
-
-  return address;
+  const address = faker.address
+  return address
 }
-
 
 // -------------------------------------------------------------------
 // keep the following line to return your filters to the app

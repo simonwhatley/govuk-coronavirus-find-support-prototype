@@ -1,0 +1,1132 @@
+---
+en:
+  accessibility_statement:
+    title: Accessibility statement
+    body_text: |
+      <p class="govuk-body">This accessibility statement applies to the service on GOV.UK to find what coronavirus support is available.</p>
+      <p class="govuk-body">This website is run by the Government Digital Service. It is designed to be used by as many people as possible. The text should be clear and simple to understand. You should be able to:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>zoom in up to 300% without problems</li>
+        <li>navigate most of the website using just a keyboard</li>
+        <li>navigate most of the website using speech recognition software</li>
+        <li>use most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)</li>
+      </ul>
+      <h2 class="govuk-heading-m">Reporting accessibility problems with this website</h2>
+      <p class="govuk-body">We’re always looking to improve the accessibility of this website. If you find any problems not listed on this page or think we’re not meeting accessibility requirements, <a class="govuk-link" href="https://www.gov.uk/contact/govuk">contact us</a>.</p>
+      <h2 class="govuk-heading-m">Enforcement procedure</h2>
+      <p class="govuk-body">The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the ‘accessibility regulations’). If you’re not happy with how we respond to your complaint, contact the <a class="govuk-link" href="https://www.equalityadvisoryservice.com/" rel="external">Equality Advisory and Support Service (EASS)</a>.</p>
+      <h2 class="govuk-heading-m">Technical information about this website’s accessibility</h2>
+      <p class="govuk-body">The Government Digital Service is committed to making its websites accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.</p>
+      <p class="govuk-body">This website is fully compliant with the Web Content Accessibility Guidelines version 2.1 AA standard.</p>
+      <h2 class="govuk-heading-m">How we tested this website</h2>
+      <p class="govuk-body">This website was last tested on 10 April 2020. The test was carried out by the Government Digital Service, based on the <a class="govuk-link" href="https://design-system.service.gov.uk/accessibility/">accessibility statement for the GOV.UK Design System</a>.</p>
+      <p class="govuk-body">This statement was prepared on 10 April 2020. It was last updated on 10 April 2020.</p>
+  privacy_page:
+    title: Privacy
+    body_text: |
+      <p class="govuk-body">Last updated: 9 April 2020</p>
+      <p class="govuk-body">This service is run by the Cabinet Office, working with:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>Acas</li>
+        <li>Advice NI</li>
+        <li>Department of Business, Energy & Industrial Strategy</li>
+        <li>Childline</li>
+        <li>Children’s Commissioner for Wales</li>
+        <li>Citizens Advice</li>
+        <li>Citizens Advice Wales</li>
+        <li>Coram Voice</li>
+        <li>Department for Digital, Culture, Media & Sport</li>
+        <li>Department for Environment, Food & Rural Affairs</li>
+        <li>Department for Education</li>
+        <li>Department of Health & Social Care</li>
+        <li>Department for Work & Pensions</li>
+        <li>Housing Advice NI</li>
+        <li>Housing Rights</li>
+        <li>Ministry of Housing, Communities & Local Government</li>
+        <li>MIND</li>
+        <li>Money Advice Service</li>
+        <li>Nexus NI</li>
+        <li>NHS</li>
+        <li>NHS Wales</li>
+        <li>NHSX</li>
+        <li>Northern Ireland Executive</li>
+        <li>NSPCC</li>
+        <li>Older People Wales</li>
+        <li>British Red Cross</li>
+        <li>Scottish Association for Mental Health</li>
+        <li>Scottish Government</li>
+        <li>Shelter (England, Scotland, Wales, Cymru)</li>
+        <li>Victim Support Wales</li>
+        <li>Welsh Government</li>
+        <li>Women’s Aid (England & Scotland)</li>
+      </ul>
+      <p class="govuk-body">We’ll use the information you provide through this service to help make sure that people who are affected by COVID-19 (coronavirus) and the wider effects of the crisis get the support they need.</p>
+      <p class="govuk-body">This privacy notice covers:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>the online service, where you can enter the information that we need to understand your needs to source the support to you</li>
+      </ul>
+
+      <h2 class="govuk-heading-m">Lawful basis for processing your personal information</h2>
+      <p class="govuk-body">Although we are not collecting any personal data from you, we are asking you to provide information about your personal circumstances. As we are collecting this information at individual level, we apply controls to ensure this information is anonymous and cannot identify you.</p>
+      <p class="govuk-body">We are processing this information on the basis that we’re carrying out a task in the public interest and to protect the vital interests of people more vulnerable to coronavirus.</p>
+
+      <h2 class="govuk-heading-m">What we do with your information</h2>
+      <p class="govuk-body">When you submit information through the online service, we will record data about the session (the journey that you take) and what answers have been selected for each session ID. This information will be stored in line with our processing and storage policy outlined below.</p>
+      <p class="govuk-body">However, this is anonymous and there is no personally identifiable information that is shared with us or other organisations, nor any way to identify which user selected which answers.</p>
+      <p class="govuk-body">We ask for information about you and those who are supporting you through the online service. We may ask for more information as part of your subsequent interactions with the service.</p>
+      <p class="govuk-body">We may share information on the usage of our service with organisations that we have worked on this service with (as listed above) in order to make sure that we and they have accurate data on who is vulnerable to coronavirus and to make sure we get help to the people who need it.</p>
+
+      <h2 class="govuk-heading-m">How long we keep your information</h2>
+      <p class="govuk-body">We will only keep your personal information for as long as we need it:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>to make sure that you get the support you need if you are a person with a medical condition which makes you vulnerable</li>
+        <li>to make sure this service is meeting overall demand from vulnerable people</li>
+        <li>to help with the overall government response to coronavirus</li>
+      </ul>
+
+      <h2 class="govuk-heading-m">Where your data is processed and stored</h2>
+      <p class="govuk-body">Your information may be transferred outside the UK while being processed by the Cabinet Office. If this happens, we’ll make sure you’re given the same level of technical and legal data protection as you are within the UK.</p>
+
+      <h2 class="govuk-heading-m">How we protect your information</h2>
+      <p class="govuk-body">We’re committed to doing all that we can to keep your information secure. We have set up systems and processes to prevent unauthorised access to or disclosure of the data we collect about you – for example, we protect your data using varying levels of encryption. All third parties that process personal data as part of this online service are required to keep that data secure. Our data processor is Amazon Web Services, who provide cloud hosting services.</li>
+
+      <h2 class="govuk-heading-m">Your rights</h2>
+      <p class="govuk-body">In certain circumstances you have the right to ask for your information to be deleted by contacting the data controller. As the information you are providing is not defined as personal data, these rights are not applicable. If you want to make any of these requests, contact us using the details below.</p>
+
+      <h2 class="govuk-heading-m">Questions and complaints</h2>
+      <p class="govuk-body">The contact details for the data controller is: Cabinet Office (Government Digital Service), The White Chapel Building, 10 Whitechapel High Street, London, E1 8QS, or <a href="mailto:gds-privacy-office@digital.cabinet-office.gov.uk" class="govuk-link">gds-privacy-office@digital.cabinet-office.gov.uk</a>.</p>
+      <p class="govuk-body">The contact details for the data controller’s Data Protection Officer are: Stephen Jones, Data Protection Officer, Cabinet Office, 70 Whitehall, London, SW1A 2AS, or <a href="mailto:dpo@cabinetoffice.gov.uk" class="govuk-link">dpo@cabinetoffice.gov.uk</a>.</p>
+      <p class="govuk-body">The Data Protection Officer provides independent advice and monitoring of Cabinet Office’s use of personal information.</p>
+      <p class="govuk-body">If you consider that your personal information has been misused or mishandled, you can make a complaint to the Information Commissioner, who is an independent regulator. The Information Commissioner can be contacted at:  Information Commissioner’s Office, Wycliffe House, Water Lane, Wilmslow, Cheshire, SK9 5AF, or 0303 123 1113, or <a href="mailto:casework@ico.org.uk" class="govuk-link">casework@ico.org.uk</a>. Any complaint to the Information Commissioner won’t affect your right to seek redress through the courts.</p>
+
+      <h2 class="govuk-heading-m">Changes to this notice</h2>
+      <p class="govuk-body">We may change this privacy notice. When we make changes to this notice, the ‘last updated’ date at the top of this page will also change. Any changes to this privacy notice will apply to you and your information immediately. If these changes affect how your personal information is processed, the Cabinet Office will take reasonable steps to make sure you know.</p>
+  session_expired:
+    title: Your session has ended due to inactivity
+    body_text: |
+      <p class="govuk-body">Your session has ended because you have not done anything for 4 hours. You’ll have to start again.</p>
+
+      <p class="govuk-body">We do this for your security. We’ve deleted all the details you entered to protect your data.</p>
+
+      <h2 class="govuk-heading-m">If you didn’t expect to see this page</h2>
+      <p class="govuk-body">You may be seeing this page because you’ve turned off cookies in your browser. You’ll need to <a class="govuk-link" href="https://ico.org.uk/your-data-matters/online/cookies/" rel="external" target="_blank">turn cookies on</a> before you can use this service.</p>
+  leave_this_website:
+    link_text: Leave this site
+    link_href: "/clear-session?ext_r=true"
+    link_redirect_to: https://www.bbc.co.uk/
+  cookies:
+    title: Cookies
+    banner:
+      title: Can we store analytics cookies on your device?
+      text: Analytics cookies help us understand how our website is being used.
+      confirmation_message: You’ve accepted all cookies. You can <a class='govuk-link'
+        href='/cookies'>change your cookie settings</a> at any time.
+    settings_page:
+      saved: Your cookie settings were saved.
+      back: Go back to the page you were looking at
+      no_javascript_explainer_html: <p class="govuk-body">We use Javascript to set
+        most of our cookies. Unfortunately Javascript is not running on your browser,
+        so you cannot change your settings. You can try:</p> <ul class="govuk-list
+        govuk-list--bullet"> <li>reloading the page</li> <li>turning on Javascript
+        in your browser</li> </ul>
+      intro_html: |
+        <p class="govuk-body">This service puts small files (known as ‘cookies’) onto your computer.</p>
+        <p class="govuk-body">Cookies are used to:</p>
+        <ul class="govuk-list govuk-list--bullet">
+          <li>keep which question you’re up to and how you’ve answered previous questions</li>
+          <li>measure how you use the website so it can be updated and improved based on your needs.</li>
+        </ul>
+        <p class="govuk-body"><a class="govuk-link" href="https://ico.org.uk/your-data-matters/online/cookies/" rel="external">Find out how to manage cookies</a></p>
+      cookies:
+      - header: Essential cookies
+        text_html: These cookies are required for this service to operate. We do not
+          need to ask permission to use them.
+        cookies:
+        - - text: cookie_preferences_set
+          - text: Lets us know whether you’ve already set your cookies preferences.
+          - text: 1 year
+        - - text: cookie_preferences
+          - text: Let us know what your cookie preferences are.
+          - text: 1 year
+        - - text: _session_id
+          - text: Remembers which question you’re up to and how you answered previous
+              questions.
+          - text: 4 hours
+      - header: Measuring website usage with Google Analytics (analytics cookies)
+        text_html: |
+          <p class="govuk-body">We use Google Analytics software to collect anonymised information about how you use the service. We do this to help make sure the site is meeting the needs of its users and to help us make improvements.
+          Google Analytics stores information about:</p>
+          <ul class="govuk-list govuk-list--bullet">
+            <li>the pages you visit</li>
+            <li>how long you spend on each page</li>
+            <li>how you arrived at the site</li>
+            <li>what you click on while you’re visiting the site</li>
+            <li>the device and browser you’re using</li>
+          </ul>
+          <p class="govuk-body">We don’t collect or store your personal information (for example your name or address) so this information can’t be used to identify who you are.</p>
+          <p class="govuk-body">We don’t allow Google to use or share our analytics data.</p>
+          <p class="govuk-body">Google Analytics sets the following cookies:</p>
+        cookie_options_name: cookies-usage
+        cookie_options:
+        - value: 'on'
+          text: Use cookies that measure my website use
+        - value: 'off'
+          text: Do not use cookies that measure my website use
+        cookies:
+        - - text: _ga
+          - text: This helps us count how many people visit the service by tracking
+              if you’ve visited before
+          - text: 2 years
+        - - text: _gid
+          - text: This helps us count how many people visit the service by tracking
+              if you’ve visited before
+          - text: 3 years
+  coronavirus_form:
+    submit_and_next: Continue
+    errors:
+      page_title_prefix: 'Error: '
+      title: 'There is a problem:'
+      radio_field: Select %{field}
+      checkbox_field: Select at least one %{field}
+    groups:
+      location:
+        questions:
+          nation:
+            title: Where do you want to find information about?
+            options:
+              option_england:
+                label: England
+              option_scotland:
+                label: Scotland
+              option_wales:
+                label: Wales
+              optopn_northern_ireland:
+                label: Northern Ireland
+            custom_select_error: Select where you want to find information about
+      filter_questions:
+        questions:
+          need_help_with:
+            title: What do you need help with because of coronavirus?
+            hint_text: Select all that apply
+            options:
+            - Not sure
+            custom_select_error: Select what you need to find help with, or ‘Not sure’
+      feeling_unsafe:
+        title: Feeling unsafe
+        need_help_with_label: Feeling unsafe where you live, or what to do if you’re
+          worried about the safety of another adult or child
+        questions:
+          feel_safe:
+            title: Do you feel safe where you live?
+            options:
+              option_yes:
+                label: 'Yes'
+              option_yes_someone_else:
+                label: Yes, but I’m worried about the safety of another adult or a
+                  child
+              option_no:
+                label: 'No'
+              not_sure:
+                label: Not sure
+            custom_select_error: Select if you feel safe where you live or if you’re
+              worried about someone else
+      paying_bills:
+        title: Paying your rent, mortgage, or bills
+        questions:
+          afford_rent_mortgage_bills:
+            title: Are you finding it hard to pay your rent, mortgage or bills?
+            options:
+              option_yes:
+                label: 'Yes'
+              option_no:
+                label: 'No'
+              not_sure:
+                label: Not sure
+            custom_select_error: Select yes if you’re finding it hard to pay your
+              rent, mortgage or bills
+      getting_food:
+        title: Getting food
+        questions:
+          afford_food:
+            title: Are you finding it hard to afford food?
+            options:
+              option_yes:
+                label: 'Yes'
+              option_no:
+                label: 'No'
+              not_sure:
+                label: Not sure
+            custom_select_error: Select yes if you’re finding it hard to afford food
+          get_food:
+            title: Are you able to get food?
+            options:
+              option_yes:
+                label: 'Yes'
+              option_no:
+                label: 'No'
+              not_sure:
+                label: Not sure
+            custom_select_error: Select yes if you’re able to get food
+      being_unemployed:
+        title: Being made redundant or unemployed, or not having any work
+        questions:
+          self_employed:
+            title: Are you self-employed or a sole trader?
+            title_caption: Being unemployed or not having any work
+            options:
+              option_yes:
+                label: 'Yes'
+              option_no:
+                label: 'No'
+              not_sure:
+                label: Not sure
+            skip_next_question_options:
+            - 'Yes'
+            custom_select_error: Select yes if you’re self-employed or a sole trader
+          have_you_been_made_unemployed:
+            title: Have you been made redundant or told to stop working?
+            title_caption: Being made redundant or unemployed, or not having any work
+            options:
+              option_yes:
+                label: Yes, I’ve been made redundant or unemployed, or I might be soon
+              option_might_be:
+                label: Yes, I’ve been put on temporary leave (on furlough), or might
+                  be soon
+              option_no:
+                label: 'No'
+              not_sure:
+                label: Not sure
+            skip_next_question_options:
+            - Yes, I’ve been made redundant or unemployed, or I might be soon
+            - Yes, I’ve been put on temporary leave (on furlough), or might be soon
+            custom_select_error: Select if you’ve been made redundant or unemployed, or put on
+              temporary leave (on furlough)
+          are_you_off_work_ill:
+            title: Are you off work because you’re ill or self-isolating?
+            title_caption: Going in to work
+            options:
+              option_yes:
+                label: 'Yes'
+              option_no:
+                label: 'No'
+            custom_select_error: Select yes if you’re off work because you’re ill
+              or self-isolating
+      going_in_to_work:
+        title: Going in to work
+        questions:
+          worried_about_work:
+            title: Are you worried about going in to work?
+            options:
+              option_yes:
+                label: 'Yes'
+              option_no:
+                label: 'No'
+              not_sure:
+                label: Not sure
+            custom_select_error: Select yes if you’re worried about going in to work
+      somewhere_to_live:
+        title: Having somewhere to live
+        questions:
+          have_somewhere_to_live:
+            title: Do you have somewhere to live?
+            options:
+              option_yes:
+                label: 'Yes'
+              option_may_lose:
+                label: I do now but I might lose it
+              option_no:
+                label: 'No'
+              not_sure:
+                label: Not sure
+            custom_select_error: Select if you have somewhere to live
+          have_you_been_evicted:
+            title: Have you been evicted?
+            options:
+              option_yes:
+                label: 'Yes'
+              option_soon:
+                label: I might be evicted soon
+              option_no:
+                label: 'No'
+              not_sure:
+                label: Not sure
+            custom_select_error: Select if you have been evicted or might be soon
+      mental_health:
+        title: Mental health and wellbeing
+        need_help_with_label: Mental health and wellbeing, including information for
+          children
+        questions:
+          mental_health_worries:
+            title: Are you worried about your mental health, or another adult or child’s
+              mental health?
+            options:
+              option_yes:
+                label: Yes, I am
+              option_no:
+                label: No, I’m not
+              not_sure:
+                label: Not sure
+            custom_select_error: Select yes if you’re worried about your mental health
+              or someone else’s mental health
+    results:
+      header:
+        context: Coronavirus (COVID-19)
+        title: Information based on your answers
+        title_no_results: Information based on your answers - no specific information
+        start_again_text: Start again
+      support_and_advice_text: Support and advice
+      no_results: |
+        <p class="govuk-body">Based on your answers, there’s no specific information for you in this service at the moment. It will be updated regularly.</p>
+
+        <p class="govuk-body"><a href="https://www.gov.uk/coronavirus" class="govuk-link">Find all information on coronavirus, including how to protect yourself and get financial support</a></p>
+      no_results_england: <p class="govuk-body"><a href="https://www.citizensadvice.org.uk/health/coronavirus-what-it-means-for-you/"
+        class="govuk-link">Find information about what you can do from Citizens Advice</a></p>
+      no_results_northern_ireland: |
+        <p class="govuk-body"><a href="https://www.nidirect.gov.uk/campaigns/coronavirus-covid-19" class="govuk-link">Additional information for Northern Ireland</a></p>
+
+        <p class="govuk-body"><a href="https://www.citizensadvice.org.uk/about-us/northern-ireland/" class="govuk-link">Get advice from Citizens Advice</a></p>
+      no_results_scotland: |
+        <p class="govuk-body"><a href="https://www.mygov.scot/coronavirus-covid-19/" class="govuk-link">Additional information for Scotland (mygov.scot)</a></p>
+
+        <p class="govuk-body"><a href="https://www.readyscotland.org/coronavirus/where-to-find-additional-support/" class="govuk-link">Find other organisations who might be able to help you (Ready Scotland)</a></p>
+
+        <p class="govuk-body"><a href="https://www.citizensadvice.org.uk/scotland/health/coronavirus-what-it-means-for-you-s/" class="govuk-link">Get advice from Citizens Advice Scotland</a></p>
+      no_results_wales: |
+        <p class="govuk-body"><a href="https://gov.wales/coronavirus" class="govuk-link">Additional information for Wales</a></p>
+
+        <p class="govuk-body"><a href="https://www.citizensadvice.org.uk/wales/health/coronavirus-what-it-means-for-you/" class="govuk-link">Get advice from Citizens Advice</a></p>
+  results_link:
+    feeling_unsafe:
+      feel_safe:
+        title: If you do not feel safe where you live or you’re worried about someone
+          else
+        show_options:
+        - Yes, but I’m worried about the safety of another adult or a child
+        - 'No'
+        - Not sure
+        items:
+        - id: '0001'
+          text: If you’re in immediate danger call 999 and ask for the Police.
+        - id: '0002'
+          text: If you’re in danger and unable to talk on the phone, call 999, then
+            press 55 when prompted.
+        - id: '0003'
+          text: Call the National Domestic Abuse Helpline on <a href="tel:0808 2000
+            247" class="govuk-link">0808 2000 247</a>, you can get advice in different
+            languages. You can also <a href="thttps://www.nationaldahelpline.org.uk/Chat-to-us-online"
+            class="govuk-link">get help online</a>.
+        - id: '0004'
+          text: If you’re a child or young person call Childline on <a href="tel:0800
+            1111" class="govuk-link">0800 1111</a> or <a href="https://www.childline.org.uk"
+            class="govuk-link">get help online</a> .
+        - id: '0007'
+          text: Get help from Nexus NI
+          href: https://nexusni.org/domestic-and-sexual-abuse-24-hour-helpline/
+          show_to_nations:
+          - Northern Ireland
+        - id: '0008'
+          text: Get help from Live Fear Free
+          href: https://gov.wales/live-fear-free
+          show_to_nations:
+          - Wales
+        - id: '0009'
+          text: Get help from Women’s Aid Scotland
+          href: https://womensaid.scot/
+          show_to_nations:
+          - Scotland
+        - id: '0010'
+          text: Get help from Scotland’s forced marriage and domestic abuse helpline
+          href: https://sdafmh.org.uk/
+          show_to_nations:
+          - Scotland
+        - id: '0013'
+          text: Contact NSPCC if you’re concerned about a child
+          href: https://www.nspcc.org.uk/keeping-children-safe/our-services/nspcc-helpline/
+        - id: '0401'
+          text: Call Hourglass, if you're an older person or worried about an older person on <a href="tel:0808 808 8141” class="govuk-link">0808 808 8141</a>, or <a href="https://wearehourglass.org/" class=”govuk-link>find
+            out what support they offer</a>.
+        - id: '0014'
+          text: Find helplines if you’re an older person (Older People’s Commissioner
+            for Wales)
+          href: https://www.olderpeoplewales.com/en/coronavirus.aspx
+          show_to_nations:
+          - Wales
+        - id: '0015'
+          text: Find victim support helplines (this page is in Welsh)
+          href: https://www.victimsupport.org.uk/help-and-support/get-help/support-near-you/wales
+          show_to_nations:
+          - Wales
+        - id: '0122'
+          text: Call Galop, the LGBT+ helpline on  <a href="tel:0800 999 5428” class="govuk-link">0800
+            999 5428</a>, or <a href="http://www.galop.org.uk/how-we-can-help/" class=”govuk-link>find
+            out what support they offer</a>.
+        - id: '0123'
+          text: Call Men’s Advice Line on <a href="tel:0808 8010327" class="govuk-link">0808
+            8010327</a> or <a href="https://mensadviceline.org.uk/"class="govuk-link">get
+            help online</a>.
+        - id: '0124'
+          text: Call Southall Black Sisters for help for black and minority women,
+            including if you’ve got No Recourse to Public Funds on <a href="tel:0208
+            571 9595" class="govuk-link">0208 571 9595</a>. You can get advice in
+            different languages. You can also <a href="https://southallblacksisters.org.uk"
+            class="govuk-link">find out what support they offer</a>.
+        - id: '0125'
+          text: Call <a href="https://karmanirvana.org.uk/help/" class="govuk-link">Karma
+            Nirvana</a> for help with honour-based abuse and forced marriage on <a
+            href="tel:0800 5999 247" class="govuk-link">0800 5999 247</a>.
+        - id: '0126'
+          text: Get specialist support for Deaf people from Signhealth.
+          href: https://signhealth.org.uk/with-deaf-people/domestic-abuse/domestic-abuse-service
+        - id: '0127'
+          text: Get help from Rape Crisis.
+          href: https://rapecrisis.org.uk/get-help
+          show_to_nations:
+          - England
+          - Wales
+        support_and_advice_items:
+        - id: '0006'
+          text: <a href="https://www.womensaid.org.uk/covid-19-coronavirus-safety-and-support-resources/"
+            class="govuk-link">Get safety advice for survivors from Women’s Aid</a>.
+            You can get advice in different languages including British Sign Language.
+        - id: '0128'
+          text: Find specialist helplines for black and minority women (Imkaan).
+          href: https://www.imkaan.org.uk/get-help
+        - id: '0005'
+          text: Find additional helplines <a href="https://www.gov.uk/guidance/domestic-abuse-how-to-get-help"
+            class="govuk-link">if you’re a victim of domestic abuse or feel at risk
+            of abuse</a>, or if you are a <a href="https://www.gov.uk/guidance/coronavirus-covid-19-victim-and-witness-services"
+            class="govuk-link">victim or witness of a crime</a>.
+        - id: '0012'
+          text: Get advice for children (Children’s Commissioner for Wales)
+          href: https://www.childcomwales.org.uk/coronavirus/
+          show_to_nations:
+          - Wales
+    paying_bills:
+      afford_rent_mortgage_bills:
+        title: If you’re finding it hard to pay your rent, mortgage or bills
+        show_options:
+        - 'Yes'
+        - Not sure
+        items:
+        - id: '0017'
+          text: What to do if you cannot pay your rent or mortgage (Shelter)
+          href: https://england.shelter.org.uk/housing_advice/coronavirus
+          show_to_nations:
+          - England
+        - id: '0018'
+          text: What to do if you cannot pay your rent or mortgage (Shelter Scotland)
+          href: https://scotland.shelter.org.uk/get_advice/scottish_housing_advice_coronavirus_COVID_19
+          show_to_nations:
+          - Scotland
+        - id: '0019'
+          text: What to do if you cannot pay your rent or mortgage (Shelter Cymru)
+          href: https://sheltercymru.org.uk/get-advice/coronavirus/
+          show_to_nations:
+          - Wales
+        - id: '0020'
+          text: What to do if you cannot pay your bills or mortgage, including if you cannot go out to pay them (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/debt-and-money/if-you-cant-pay-your-bills-because-of-coronavirus/
+          show_to_nations:
+          - England
+        - id: '0021'
+          text: What to do if you cannot pay your bills or mortgage, including if you cannot go out to pay them (Citizens Advice)
+            Scotland)
+          href: https://www.citizensadvice.org.uk/scotland/debt-and-money/if-you-cant-pay-your-bills-because-of-coronavirus/
+          show_to_nations:
+          - Scotland
+        - id: '0022'
+          text: What to do if you cannot pay your bills or mortgage, including if you cannot go out to pay them (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/wales/debt-and-money/if-you-cant-pay-your-bills-because-of-coronavirus/
+          show_to_nations:
+          - Wales
+        - id: '0023'
+          text: Get help from Citizens Advice
+          href: https://www.citizensadvice.org.uk/about-us/northern-ireland/
+          show_to_nations:
+          - Northern Ireland
+        - id: '0024'
+          text: Get help from the housing and debt helpline for Northern Ireland (Housing
+            Rights)
+          href: https://www.housingrights.org.uk/
+          show_to_nations:
+          - Northern Ireland
+        - id: '0120'
+          text: Find out if you can get help paying for childcare
+          href: https://www.gov.uk/get-childcare
+        - id: '0119'
+          text: Find out if you can get help in your local area
+          href: https://www.gov.uk/coronavirus-local-help
+        support_and_advice_items:
+        - id: '0016'
+          text: Your rights if you’re finding it hard to pay rent
+          href: https://www.gov.uk/government/publications/covid-19-and-renting-guidance-for-landlords-tenants-and-local-authorities
+        - id: '0025'
+          text: What to do if you’re finding it hard to pay rent (Welsh Government)
+          href: https://gov.wales/coronavirus-covid-19-guidance-for-tenants-in-the-private-rented-sector-html
+          show_to_nations:
+          - Wales
+        - id: '0026'
+          text: Find out about your rights if you have a private landlord (mygov.scot)
+          href: https://www.mygov.scot/private-rental-rights/
+          show_to_nations:
+          - Scotland
+        - id: '0027'
+          text: Find out about your rights if you have a social landlord (mygov.scot)
+          href: https://www.mygov.scot/social-rental-rights/
+          show_to_nations:
+          - Scotland
+    getting_food:
+      afford_food:
+        title: If you’re finding it hard to afford food
+        show_options:
+        - 'Yes'
+        - Not sure
+        items:
+        - id: '0028'
+          text: Find out if you’re eligible for Universal Credit
+          href: https://www.gov.uk/universal-credit/eligibility
+        - id: '0029'
+          text: Find out if you can get help from a foodbank (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/wales/benefits/help-if-on-a-low-income/using-a-food-bank/
+          show_to_nations:
+          - Wales
+        - id: '0111'
+          text: Find out if you can get help from a foodbank (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/benefits/help-if-on-a-low-income/using-a-food-bank/
+          show_to_nations:
+          - England
+        - id: '0030'
+          text: Find out about the financial support and benefits you might be able
+            to get (NI direct)
+          href: https://www.nidirect.gov.uk/articles/coronavirus-covid-19-and-benefits
+          show_to_nations:
+          - Northern Ireland
+        - id: '0113'
+          text: If you need food urgently and have no other support, find out if you
+            can get help from your council
+          href: https://www.gov.uk/coronavirus-local-help
+        - id: '0031'
+          text: If you have a child, find out if they can get free school meals
+          href: https://www.gov.uk/apply-free-school-meals
+        - id: '0032'
+          text: Find out if you can apply for Healthy Start vouchers if you’re 10
+            or more weeks pregnant or have a child under 4
+          href: https://www.healthystart.nhs.uk/healthy-start-vouchers/do-i-qualify/
+          show_to_nations:
+          - England
+          - Wales
+          - Northern Ireland
+        - id: '0033'
+          text: Find out if you can apply for Best Start Grant and Best Start Foods
+            if you have a child (mygov.scot)
+          href: https://www.mygov.scot/best-start-grant-best-start-foods/
+          show_to_nations:
+          - Scotland
+        - id: '0034'
+          text: Find out if you’re eligible for the Scottish Welfare Fund (mygov.scot)
+          href: https://www.mygov.scot/scottish-welfare-fund/
+          show_to_nations:
+          - Scotland
+        - id: '0035'
+          text: Find out if you can get a grant if you’re a parent or looking after
+            a child (mygov.scot)
+          href: https://www.mygov.scot/best-start-grant-best-start-foods/
+          show_to_nations:
+          - Scotland
+        - id: '0036'
+          text: Check if you’re eligible for the Discretionary Assistance Fund (Welsh
+            Government)
+          href: https://gov.wales/discretionary-assistance-fund-daf
+          show_to_nations:
+          - Wales
+        - id: '0037'
+          text: Call the coronavirus Community Helpline for Northern Ireland on <a
+            href="tel:+448088020020" class="govuk-link">0808 802 0020</a>, email <a
+            href="mailto:covid19@adviceni.net" class="govuk-link">covid19@adviceni.net</a>
+            or text ‘ACTION’ to 81025
+          show_to_nations:
+          - Northern Ireland
+      get_food:
+        title: If you’re unable to get food
+        show_options:
+        - 'No'
+        - Not sure
+        items:
+        - id: '0038'
+          text: Find out if you can sign up for supermarket delivery priority access if you’re clinically at high risk from
+            coronavirus (Gov.scot)
+          href: https://www.gov.scot/publications/covid-shielding/pages/overview/
+          show_to_nations:
+          - Scotland
+        - id: '0042'
+          text: Find out if you can get help from the Scottish Government
+          href: https://www.gov.scot/publications/coronavirus-covid-19-help-for-vulnerable-people
+          show_to_nations:
+          - Scotland
+        - id: '0039'
+          text: You might be able to phone or email your local shops to get a food
+            delivery, or get food online.
+        - id: '0041'
+          text: Find out if you can get help from a volunteer through the NHS Volunteer Responders programme
+          href: https://volunteering.royalvoluntaryservice.org.uk/nhs-volunteer-responders-portal/isolating
+        - id: '0040'
+          text: Find out how you can pay for your shopping safely if someone else is shopping for you
+          href: https://www.gov.uk/guidance/coronavirus-covid-19-accessing-food-and-essential-supplies
+          show_to_nations: England
+        - id: '0140'
+          text: Find out how you can pay for your shopping safely if someone else is shopping for you
+          href: https://gov.wales/getting-food-and-essential-supplies-during-coronavirus-pandemic
+          show_to_nations: Wales
+        - id: '0043'
+          text: If you need urgent help contact your local council
+          href: https://www.gov.uk/coronavirus-local-help
+          support_and_advice_items:
+        - id: '0044'
+          text: Get more information on accessing food and other essential supplies
+          href: https://www.gov.uk/guidance/coronavirus-covid-19-accessing-food-and-essential-supplies
+          show_to_nations: England
+        - id: '0144'
+          text: Get more information on accessing food and other essential supplies
+          href: https://gov.wales/getting-food-and-essential-supplies-during-coronavirus-pandemic
+          show_to_nations: Wales
+    being_unemployed:
+      have_you_been_made_unemployed:
+        title: If you’ve been made redundant or unemployed, or put on temporary leave (on furlough)
+        show_options:
+        - Yes, I’ve been made redundant or unemployed, or I might be soon
+        - Yes, I’ve been put on temporary leave (on furlough), or might be soon
+        - Not sure
+        items:
+        - id: '0045'
+          text: What to do if you’ve lost your job
+          href: https://www.gov.uk/guidance/coronavirus-covid-19-what-to-do-if-you-were-employed-and-have-lost-your-job
+        - id: '0048'
+          text: What to do if you’ve been furloughed
+          href: https://www.gov.uk/guidance/coronavirus-covid-19-what-to-do-if-youre-employed-and-cannot-work
+        - id: '0301'
+          text: Your rights if you’ve been made redundant, including information on how much redundancy pay you can get and your notice period
+          href: https://www.gov.uk/redundancy-your-rights
+        - id: '0302'
+          text: Check if your redundancy is fair (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/work/leaving-a-job/redundancy/check-if-your-redundancy-is-fair/
+          show_to_nations: England
+        - id: '0303'
+          text: Check if your redundancy is fair (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/wales/work/leaving-a-job/redundancy/check-if-your-redundancy-is-fair/
+          show_to_nations: Wales
+        - id: '0304'
+          text: Check if your redundancy is fair (Citizens Advice Scotland)
+          href: https://www.citizensadvice.org.uk/scotland/work/leaving-a-job/redundancy/check-if-your-redundancy-is-fair/
+          show_to_nations: Scotland
+        - id: '0052'
+          text: Find out about the financial support and benefits you might be able
+            to get (NI direct)
+          href: https://www.nidirect.gov.uk/articles/coronavirus-covid-19-and-benefits
+          show_to_nations:
+          - Northern Ireland
+        - id: '0061'
+          text: Check if you’re eligible for the Discretionary Assistance Fund (Welsh
+            Government)
+          href: https://gov.wales/discretionary-assistance-fund-daf
+          show_to_nations:
+          - Wales
+        - id: '0063'
+          text: Find help with benefits (mygov.scot)
+          href: https://www.mygov.scot/benefits-support/
+          show_to_nations:
+          - Scotland
+        - id: '0121'
+          text: Search and apply for jobs
+          href: https://www.gov.uk/find-a-job
+          show_to_nations:
+          - Scotland
+          - Wales
+          - England
+        - id: '0120'
+          text: Find out if you can get help in your local area
+          href: https://www.gov.uk/coronavirus-local-help
+        support_and_advice_items:
+        - id: '0047'
+          text: What to do if your employer has ended your employment but you have not been made redundant
+          href: https://www.gov.uk/dismissal
+        - id: '0049'
+          text: Advice if you’ve been furloughed (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/work/coronavirus-being-furloughed-if-you-cant-work/
+          show_to_nations:
+          - England
+        - id: '0050'
+          text: Advice if you’ve been furloughed (Citizens Advice Scotland)
+          href: https://www.citizensadvice.org.uk/scotland/work/coronavirus-being-furloughed-if-you-cant-work/
+          show_to_nations:
+          - Scotland
+        - id: '0051'
+          text: Advice if you’ve been furloughed (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/wales/work/coronavirus-being-furloughed-if-you-cant-work/
+          show_to_nations:
+          - Wales
+        - id: '0054'
+          text: Get advice on applying for Universal Credit (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/benefits/universal-credit/
+          show_to_nations:
+          - England
+        - id: '0055'
+          text: Get advice on applying for Universal Credit (Citizens Advice Scotland)
+          href: https://www.citizensadvice.org.uk/scotland/benefits/universal-credit/
+          show_to_nations:
+          - Scotland
+        - id: '0056'
+          text: Get advice on applying for Universal Credit (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/wales/benefits/universal-credit/
+          show_to_nations:
+          - Wales
+        - id: '0057'
+          text: Get help from Citizens Advice
+          href: https://www.citizensadvice.org.uk/about-us/northern-ireland/
+          show_to_nations:
+          - Northern Ireland
+        - id: '0058'
+          text: Get advice on benefits (Advice NI)
+          href: https://www.adviceni.net/
+          show_to_nations:
+          - Northern Ireland
+        - id: '0059'
+          text: Contact Working Wales if you’ve been made redundant
+          href: https://workingwales.gov.wales/
+          show_to_nations:
+          - Wales
+        - id: '0062'
+          text: Get help if you’ve been made redundant (mygov.scot)
+          href: https://www.mygov.scot/help-redundancy/
+          show_to_nations:
+          - Scotland
+      are_you_off_work_ill:
+        title: If you’re off work because you’re ill or self isolating
+        show_options:
+        - 'Yes'
+        items:
+        - id: '0064'
+          text: What to do if you’re employed but cannot work
+          href: https://www.gov.uk/guidance/coronavirus-covid-19-what-to-do-if-youre-employed-and-cannot-work
+        - id: '0067'
+          text: Check if you’re eligible for the Discretionary Assistance Fund (Welsh
+            Government)
+          href: https://gov.wales/discretionary-assistance-fund-daf
+          show_to_nations:
+          - Wales
+        support_and_advice_items:
+        - id: '0066'
+          text: Find out about the help you can get if you’re self-employed or work
+            in the gig economy (Money Advice Service)
+          href: https://www.moneyadviceservice.org.uk/en/articles/coronavirus-what-it-means-for-you
+        - id: '0065'
+          text: Find out about getting statutory sick pay if you’re self-isolating
+            (Acas)
+          href: https://www.acas.org.uk/coronavirus/self-isolation-and-sick-pay
+      self_employed:
+        title: If you’re self employed or a sole trader
+        show_options:
+        - 'Yes'
+        - Not sure
+        items:
+        - id: '0068'
+          text: What to do if you’re self-employed and getting less or no work
+          href: https://www.gov.uk/guidance/coronavirus-covid-19-what-to-do-if-youre-self-employed-and-getting-less-work-or-no-work
+        - id: '0124'
+          text: Find financial support for your business
+          href: https://www.gov.uk/business-coronavirus-support-finder
+        - id: '0070'
+          text: Find out about the financial support and benefits you might be able
+            to get (NI direct)
+          href: https://www.nidirect.gov.uk/articles/coronavirus-covid-19-and-benefits
+          show_to_nations:
+          - Northern Ireland
+        - id: '0074'
+          text: Get help with your business rates and find out about coronavirus loans
+            (nibusinessinfo)
+          href: https://www.nibusinessinfo.co.uk/content/coronavirus-support-and-advice-self-employed
+          show_to_nations:
+          - Northern Ireland
+        - id: '0077'
+          text: Check if you’re eligible for the Discretionary Assistance Fund (Welsh
+            Government)
+          href: https://gov.wales/discretionary-assistance-fund-daf
+          show_to_nations:
+          - Wales
+        - id: '0079'
+          text: Find financial support for your business (Scottish Government)
+          href: https://findbusinesssupport.gov.scot/coronavirus-advice
+          show_to_nations:
+          - Scotland
+        - id: '0121'
+          text: Find out if you can get help in your local area
+          href: https://www.gov.uk/coronavirus-local-help
+        support_and_advice_items:
+        - id: '0069'
+          text: What you can do if you’re self employed or a sole trader (Money Advice
+            Service)
+          href: https://www.moneyadviceservice.org.uk/en/articles/coronavirus-if-youre-self-employed
+        - id: '0071'
+          text: Get advice on applying for Universal Credit (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/benefits/universal-credit/
+          show_to_nations:
+          - England
+        - id: '0072'
+          text: Get advice on applying for Universal Credit (Citizens Advice
+            Scotland)
+          href: https://www.citizensadvice.org.uk/scotland/benefits/universal-credit/
+          show_to_nations:
+          - Scotland
+        - id: '0073'
+          text: Get advice on applying for Universal Credit (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/wales/benefits/universal-credit/
+          show_to_nations:
+          - Wales
+        - id: '0075'
+          text: Get help from Citizens Advice
+          href: https://www.citizensadvice.org.uk/about-us/northern-ireland/
+          show_to_nations:
+          - Northern Ireland
+        - id: '0076'
+          text: Get advice on benefits (Advice NI)
+          href: https://www.adviceni.net/
+          show_to_nations:
+          - Northern Ireland
+        - id: '0078'
+          text: Find help with benefits (mygov.scot)
+          href: https://www.mygov.scot/benefits-support/
+          show_to_nations:
+          - Scotland
+    going_in_to_work:
+      worried_about_work:
+        title: If you’re worried about going in to work
+        show_options:
+        - 'Yes'
+        - Not sure
+        items:
+        - id: '0207'
+          text: Check if you should go back in to work
+          href: https://www.gov.uk/coronavirus-employee-risk-assessment
+          show_to_nations:
+          - England
+        - id: '0120'
+          text: Find out if you can get help paying for childcare
+          href: https://www.gov.uk/get-childcare
+        support_and_advice_items:
+        - id: '0081'
+          text: What to do if you’ve been told to go back in to work and you’re worried
+            (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/work/coronavirus-if-youre-worried-about-working/
+          show_to_nations:
+          - England
+        - id: '0082'
+          text: What to do if you’ve been told to go back in to work and you’re worried
+            (Citizens Advice Scotland)
+          href: https://www.citizensadvice.org.uk/scotland/work/coronavirus-if-youre-worried-about-working/
+          show_to_nations:
+          - Scotland
+        - id: '0083'
+          text: What to do if you’ve been told to go back in to work and you’re worried
+            (Citizens Advice)
+          href: https://www.citizensadvice.org.uk/wales/work/coronavirus-if-youre-worried-about-working/
+          show_to_nations:
+          - Wales
+        - id: '0084'
+          text: Get help from Citizens Advice
+          href: https://www.citizensadvice.org.uk/about-us/northern-ireland/
+          show_to_nations:
+          - Northern Ireland
+        - id: '0208'
+          text: What to do if you’re shielding because you’ve been told by a doctor you’re clinically extremely vulnerable, but you’ve been told to go back to work
+          href: https://www.gov.uk/government/publications/guidance-on-shielding-and-protecting-extremely-vulnerable-persons-from-covid-19/guidance-on-shielding-and-protecting-extremely-vulnerable-persons-from-covid-19#work-and-employment-for-those-who-are-shielding
+        - id: '0209'
+          text: What you can do if you’ve been told to go back to work but you need to look after someone or do child care (Acas)
+          href: https://www.acas.org.uk/coronavirus/using-holiday/time-off-work-to-look-after-someone
+    somewhere_to_live:
+      have_somewhere_to_live:
+        title: If you do not have somewhere to live or might become homeless
+        show_options:
+        - I do now but I might lose it
+        - 'No'
+        - Not sure
+        items:
+        - id: '0085'
+          text: Get help if you’re homeless, including advice for EU nationals, refugees and asylum seekers, and disabled people (Shelter)
+          href: https://england.shelter.org.uk/housing_advice/homelessness
+          show_to_nations:
+          - England
+        - id: '0086'
+          text: Get help if you’re homeless, including advice for refugees and asylum seekers and EU nationals (Shelter Cymru)
+          href: https://sheltercymru.org.uk/get-advice/homelessness/
+          show_to_nations:
+          - Wales
+        - id: '0087'
+          text: Call the Northern Ireland Housing Executive on <a href="tel:+443448920908"
+            class="govuk-link">03448 920 908</a>
+          show_to_nations:
+          - Northern Ireland
+        - id: '0090'
+          text: Get help if you’re homeless (mygov.scot)
+          href: https://www.mygov.scot/homelessness/
+          show_to_nations:
+          - Scotland
+        - id: '0114'
+          text: Find out if you can get help in your local area
+          href: https://www.gov.uk/coronavirus-local-help
+        - id: '0200'
+          text: Get specialist advice for LGBT+ people (Stonewall Housing)
+          href: https://stonewallhousing.org/services/advice/
+        - id: '0201'
+          text: Get help if you’re aged 16 to 25 (Centrepoint)
+          href: https://centrepoint.org.uk/youth-homelessness/get-help-now/
+        support_and_advice_items:
+        - id: '0088'
+          text: Get help from Housing Rights housing and debt helpline
+          href: https://www.housingadviceni.org/homeless/coronavirus
+          show_to_nations:
+          - Northern Ireland
+        - id: '0091'
+          text: Get help if you’re homeless from Shelter Scotland
+          href: https://scotland.shelter.org.uk/get_advice/advice_topics/homelessness
+          show_to_nations:
+          - Scotland
+      have_you_been_evicted:
+        title: If you’ve been evicted or might be soon
+        show_options:
+        - 'Yes'
+        - I might be evicted soon
+        - Not sure
+        items:
+        - id: '0093'
+          text: Get coronavirus housing advice (Shelter)
+          href: https://england.shelter.org.uk/housing_advice/coronavirus
+          show_to_nations:
+          - England
+        - id: '0095'
+          text: Call the Northern Ireland Housing Executive on <a href="tel:+443448920908"
+            class="govuk-link">03448 920 908</a>
+          show_to_nations:
+          - Northern Ireland
+        - id: '0100'
+          text: Find out how to get help if you’re being evicted (mygov.scot)
+          href: https://www.mygov.scot/private-tenant-eviction/getting-help/
+          show_to_nations:
+          - Scotland
+        - id: '0098'
+          text: Get coronavirus housing advice for Wales (Shelter Cymru)
+          href: https://sheltercymru.org.uk/get-advice/coronavirus/
+          show_to_nations:
+          - Wales
+        - id: '0205'
+          text: Get advice and find out about your rights if you’re a Gypsy or Traveller and you’re being evicted (Shelter)
+          href: https://england.shelter.org.uk/housing_advice/eviction/gypsies_and_travellers_facing_eviction_from_a_site
+          show_to_nations:
+          - England
+        - id: '0206'
+          text: Get advice and find out about your rights if you’re a Gypsy or Traveller and you’re being evicted (Shelter Scotland)
+          href: https://scotland.shelter.org.uk/get_advice/advice_topics/eviction/eviction_of_gypsiestravellers
+          show_to_nations:
+          - Scotland
+        - id: '0115'
+          text: Find out if you can get help in your local area
+          href: https://www.gov.uk/coronavirus-local-help
+        support_and_advice_items:
+        - id: '0092'
+          text: Find information about your rights as a tenant
+          href: https://www.gov.uk/government/publications/covid-19-and-renting-guidance-for-landlords-tenants-and-local-authorities
+          show_to_nations:
+          - England
+        - id: '0099'
+          text: Get information on evictions (Welsh Government)
+          href: https://gov.wales/coronavirus-covid-19-guidance-for-tenants-in-the-private-rented-sector-html
+          show_to_nations:
+          - Wales
+        - id: '0101'
+          text: Find out about your rights if you have a private landlord (mygov.scot)
+          href: https://www.mygov.scot/private-rental-rights/
+          show_to_nations:
+          - Scotland
+        - id: '0102'
+          text: Find out about your rights if you have a social landlord (mygov.scot)
+          href: https://www.mygov.scot/social-rental-rights/
+          show_to_nations:
+          - Scotland
+        - id: '0096'
+          text: Find advice from the Housing Executive
+          href: https://www.nihe.gov.uk/My-Housing-Executive/Advice-for-Housing-Executive-Tenants/Covid-19-(Coronavirus)
+          show_to_nations:
+          - Northern Ireland
+        - id: '0097'
+          text: Get advice from Housing Rights
+          href: https://www.housingadviceni.org/coronavirus
+          show_to_nations:
+          - Northern Ireland
+        - id: '0094'
+          text: Get coronavirus housing advice (Shelter Scotland)
+          href: https://scotland.shelter.org.uk/get_advice/scottish_housing_advice_coronavirus_COVID_19
+          show_to_nations:
+          - Scotland
+    mental_health:
+      mental_health_worries:
+        title: If you’re worried about your mental health or someone else’s mental
+          health
+        show_options:
+        - Yes, I am
+        - Not sure
+        items:
+        - id: '0103'
+          text: Where to get urgent help for mental health (NHS)
+          href: https://www.nhs.uk/using-the-nhs/nhs-services/mental-health-services/dealing-with-a-mental-health-crisis-or-emergency/
+        - id: '0104'
+          text: How to manage specific mental health needs (Mind)
+          href: https://www.mind.org.uk/information-support/coronavirus/coronavirus-and-your-wellbeing
+        - id: '0106'
+          text: Get advice on looking after your mental health during coronavirus
+            (NHS)
+          href: https://www.nhs.uk/oneyou/every-mind-matters
+        - id: '0107'
+          text: Things you can do to support the mental health and wellbeing of children
+            and young people (Public Health England)
+          href: https://www.gov.uk/government/publications/covid-19-guidance-on-supporting-children-and-young-peoples-mental-health-and-wellbeing/guidance-for-parents-and-carers-on-supporting-children-and-young-peoples-mental-health-and-wellbeing-during-the-coronavirus-covid-19-outbreak
+        - id: '0116'
+          text: Advice and guidance on where you can get help with your mental health
+            if you’re a young person (Young Minds)
+          href: https://youngminds.org.uk/find-help/looking-after-yourself/coronavirus-and-mental-health/
+        support_and_advice_items:
+        - id: '0105'
+          text: Looking after your mental health during coronavirus (Public Health
+            England)
+          href: https://www.gov.uk/government/publications/covid-19-guidance-for-the-public-on-mental-health-and-wellbeing
+        - id: '0108'
+          text: Additional information about taking care of your mental health (NI
+            direct)
+          href: https://www.nidirect.gov.uk/articles/coronavirus-covid-19-taking-care-your-mental-health-and-wellbeing
+          show_to_nations:
+          - Northern Ireland
+        - id: '0109'
+          text: Additional information about taking care of your mental health (Public
+            Health Wales)
+          href: https://phw.nhs.wales/topics/latest-information-on-novel-coronavirus-covid-19/staying-well-at-home/how-are-you-feeling/
+          show_to_nations:
+          - Wales
+        - id: '0110'
+          text: Additional information about coronavirus and your mental wellbeing
+            from the Scottish Association for Mental Health
+          href: https://www.samh.org.uk/about-mental-health/self-help-and-wellbeing/coronavirus-and-your-mental-wellbeing
+          show_to_nations:
+          - Scotland
+        - id: '0117'
+          text: Advice on supporting children’s mental health during coronavirus (Young
+            Minds)
+          href: https://youngminds.org.uk/find-help/for-parents/supporting-your-child-during-the-coronavirus-pandemic/
+  feedback:
+    link_text: Give feedback on this service
+    link_href: https://www.gov.uk/done/find-coronavirus-support
+    titles:
+      feeling_unsafe: Was this information on what to do if you’re feeling unsafe or worried about someone else helpful?
+      paying_bills: Was this information on paying your bills, rent, or mortgage helpful?
+      getting_food: Was this information on getting food helpful?
+      being_unemployed: Was this information on being made redundant or unemployed, or not having any work helpful?
+      going_in_to_work: Was this information on going in to work helpful?
+      somewhere_to_live: Was this information on having somewhere to live helpful?
+      mental_health: Was this information on mental health and wellbeing helpful?
+      default: What were you looking for support with?

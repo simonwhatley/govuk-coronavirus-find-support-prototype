@@ -1,10 +1,10 @@
 // -------------------------------------------------------------------
 // Imports and setup
 // -------------------------------------------------------------------
-const _ = require('lodash');
+const _ = require('lodash')
 
 // Leave this filters line
-let filters = {}
+const filters = {}
 
 /*
   ====================================================================
@@ -21,13 +21,19 @@ let filters = {}
 
 */
 
-filters.arrayToList = function(array, join = ', ', final = ' and ') {
-  var arr = array.slice(0);
-  var last = arr.pop();
-  if (array.length > 1) {
-    return arr.join(join) + final + last;
+filters.arrayToList = (array, join = ', ', final = ' and ') => {
+  if (!Array.isArray(array)) {
+    return null
   }
-  return last;
+
+  const arr = array.slice(0)
+  const last = arr.pop()
+
+  if (array.length > 1) {
+    return arr.join(join) + final + last
+  }
+
+  return last
 }
 
 /*
@@ -43,7 +49,7 @@ filters.arrayToList = function(array, join = ', ', final = ' and ') {
 
 */
 
-filters.combineArrays = (arr1=[], arr2=[]) => {
+filters.combineArrays = (arr1 = [], arr2 = []) => {
   if (_.isString(arr1)) arr1 = [arr1]
   if (_.isString(arr2)) arr2 = [arr2]
   return [...arr1, ...arr2]
@@ -80,18 +86,26 @@ filters.push = (array, item) => {
 
   [Usage here]
 
-
 */
 
 filters.trimEach = input => {
-  if (!input) return
+  if (!input) {
+    return
+  }
 
-  if (_.isArray(input)) return input.map( item => {
-    if (_.isString(item)) return item.trim()
-    else return item
-  } )
-  else if (_.isString(input)) return input.trim()
-  else return input
+  if (_.isArray(input)) {
+    return input.map(item => {
+      if (_.isString(item)) {
+        return item.trim()
+      } else {
+        return item
+      }
+    })
+  } else if (_.isString(input)) {
+    return input.trim()
+  } else {
+    return input
+  }
 }
 
 /*
@@ -105,29 +119,31 @@ filters.trimEach = input => {
 
   [Usage here]
 
-
 */
 
 // Returns false if no items remaining
 filters.removeEmpty = items => {
-
   // Handle empty
-  if (!items) return
+  if (!items) {
+    return
+  }
 
   // Handle strings
-  if (_.isString(items) ) {
-    if (items != null && items !== '') return items
-    else return
+  if (_.isString(items)) {
+    if (items != null && items !== '') {
+      return items
+    }
   }
 
   // Handle arrys
-  if (_.isArray(items)){
-    var output = items.filter( item => {
-      return (item && (item !==""))
+  if (_.isArray(items)) {
+    var output = items.filter(item => {
+      return (item && (item !== ''))
     })
     // Don't return emtpy arrays
-    if (output.length) return output
-    else return
+    if (output.length) {
+      return output
+    }
   }
 }
 
@@ -141,7 +157,6 @@ filters.removeEmpty = items => {
   Usage:
 
   [Usage here]
-
 
 */
 

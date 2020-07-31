@@ -229,7 +229,7 @@ if (useLogging === 'true') {
 
 // Clear all data in session if you open /prototype-admin/clear-data
 app.post('/prototype-admin/clear-data', function (req, res) {
-  delete req.session.data;
+  delete req.session.data
   res.render('prototype-admin/clear-data-success')
 })
 
