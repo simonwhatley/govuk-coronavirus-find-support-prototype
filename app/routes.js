@@ -113,7 +113,9 @@ router.post('/help', checkHasAnswers, (req, res) => {
 // Feel safe
 // --------------------------------------------------
 router.get('/unsafe', (req, res) => {
-  if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('feeling_unsafe') !== -1) {
+  if (req.session.data.answers.help !== undefined &&
+    (req.session.data.answers.help.indexOf('feeling_unsafe') !== -1 ||
+    req.session.data.answers.help.indexOf('not_sure') !== -1)) {
     res.render('question', {
       question: Questions.question('feel_safe', req.session.data.answers.feel_safe),
       actions: {
@@ -157,7 +159,9 @@ router.post('/unsafe', checkHasAnswers, (req, res) => {
 // Afford rent mortgage bills
 // --------------------------------------------------
 router.get('/bills', (req, res) => {
-  if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('paying_bills') !== -1) {
+  if (req.session.data.answers.help !== undefined &&
+    (req.session.data.answers.help.indexOf('paying_bills') !== -1 ||
+    req.session.data.answers.help.indexOf('not_sure') !== -1)) {
     res.render('question', {
       question: Questions.question('afford_rent_mortgage_bills', req.session.data.answers.afford_rent_mortgage_bills),
       actions: {
@@ -201,7 +205,9 @@ router.post('/bills', checkHasAnswers, (req, res) => {
 // Afford food
 // --------------------------------------------------
 router.get('/afford-food', (req, res) => {
-  if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('getting_food') !== -1) {
+  if (req.session.data.answers.help !== undefined &&
+    (req.session.data.answers.help.indexOf('getting_food') !== -1 ||
+    req.session.data.answers.help.indexOf('not_sure') !== -1)) {
     res.render('question', {
       question: Questions.question('afford_food', req.session.data.answers.afford_food),
       actions: {
@@ -246,7 +252,9 @@ router.post('/afford-food', checkHasAnswers, (req, res) => {
 // --------------------------------------------------
 
 router.get('/get-food', (req, res) => {
-  if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('getting_food') !== -1) {
+  if (req.session.data.answers.help !== undefined &&
+    (req.session.data.answers.help.indexOf('getting_food') !== -1 ||
+    req.session.data.answers.help.indexOf('not_sure') !== -1)) {
     res.render('question', {
       question: Questions.question('get_food', req.session.data.answers.get_food),
       actions: {
@@ -290,7 +298,9 @@ router.post('/get-food', checkHasAnswers, (req, res) => {
 // Self employed
 // --------------------------------------------------
 router.get('/self-employed', (req, res) => {
-  if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('being_unemployed') !== -1) {
+  if (req.session.data.answers.help !== undefined &&
+    (req.session.data.answers.help.indexOf('being_unemployed') !== -1 ||
+    req.session.data.answers.help.indexOf('not_sure') !== -1)) {
     res.render('question', {
       question: Questions.question('self_employed', req.session.data.answers.self_employed),
       actions: {
@@ -334,7 +344,9 @@ router.post('/self-employed', checkHasAnswers, (req, res) => {
 // Have you been made unemployed
 // --------------------------------------------------
 router.get('/stop-working', (req, res) => {
-  if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('being_unemployed') !== -1) {
+  if (req.session.data.answers.help !== undefined &&
+    (req.session.data.answers.help.indexOf('being_unemployed') !== -1 ||
+    req.session.data.answers.help.indexOf('not_sure') !== -1)) {
     res.render('question', {
       question: Questions.question('have_you_been_made_unemployed', req.session.data.answers.have_you_been_made_unemployed),
       actions: {
@@ -378,7 +390,9 @@ router.post('/stop-working', checkHasAnswers, (req, res) => {
 // Off work ill
 // --------------------------------------------------
 router.get('/off-work', (req, res) => {
-  if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('being_unemployed') !== -1) {
+  if (req.session.data.answers.help !== undefined &&
+    (req.session.data.answers.help.indexOf('being_unemployed') !== -1 ||
+    req.session.data.answers.help.indexOf('not_sure') !== -1)) {
     res.render('question', {
       question: Questions.question('are_you_off_work_ill', req.session.data.answers.are_you_off_work_ill),
       actions: {
@@ -422,7 +436,9 @@ router.post('/off-work', checkHasAnswers, (req, res) => {
 // Living with vulnerable
 // --------------------------------------------------
 router.get('/going-to-work', (req, res) => {
-  if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('going_to_work') !== -1) {
+  if (req.session.data.answers.help !== undefined &&
+    (req.session.data.answers.help.indexOf('going_to_work') !== -1 ||
+    req.session.data.answers.help.indexOf('not_sure') !== -1)) {
     res.render('question', {
       question: Questions.question('worried_about_work', req.session.data.answers.worried_about_work),
       actions: {
@@ -466,7 +482,9 @@ router.post('/going-to-work', checkHasAnswers, (req, res) => {
 // Have somewhere to live
 // --------------------------------------------------
 router.get('/somewhere-to-live', (req, res) => {
-  if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('somewhere_to_live') !== -1) {
+  if (req.session.data.answers.help !== undefined &&
+    (req.session.data.answers.help.indexOf('somewhere_to_live') !== -1 ||
+    req.session.data.answers.help.indexOf('not_sure') !== -1)) {
     res.render('question', {
       question: Questions.question('have_somewhere_to_live', req.session.data.answers.have_somewhere_to_live),
       actions: {
@@ -510,7 +528,9 @@ router.post('/somewhere-to-live', checkHasAnswers, (req, res) => {
 // Have you been evicted
 // --------------------------------------------------
 router.get('/evicted', (req, res) => {
-  if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('somewhere_to_live') !== -1) {
+  if (req.session.data.answers.help !== undefined &&
+    (req.session.data.answers.help.indexOf('somewhere_to_live') !== -1 ||
+    req.session.data.answers.help.indexOf('not_sure') !== -1)) {
     res.render('question', {
       question: Questions.question('have_you_been_evicted', req.session.data.answers.have_you_been_evicted),
       actions: {
@@ -554,7 +574,9 @@ router.post('/evicted', checkHasAnswers, (req, res) => {
 // Mental health worries
 // --------------------------------------------------
 router.get('/worried', (req, res) => {
-  if (req.session.data.answers.help !== undefined && req.session.data.answers.help.indexOf('mental_health') !== -1) {
+  if (req.session.data.answers.help !== undefined &&
+    (req.session.data.answers.help.indexOf('mental_health') !== -1 ||
+    req.session.data.answers.help.indexOf('not_sure') !== -1)) {
     res.render('question', {
       question: Questions.question('mental_health_worries', req.session.data.answers.mental_health_worries),
       actions: {
