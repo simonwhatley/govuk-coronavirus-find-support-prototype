@@ -36,7 +36,7 @@
       {%- if question.type == 'single' %}
         {{ govukRadios({
           idPrefix: question.id,
-          name: question.name,
+          name: "answers[" + question.id + "]",
           fieldset: {
             legend: {
               html: legendHtml
@@ -53,7 +53,7 @@
       {%- if question.type == 'multiple' %}
         {{ govukCheckboxes({
           idPrefix: question.id,
-          name: question.name,
+          name: "answers[" + question.id + "]",
           fieldset: {
             legend: {
               html: legendHtml

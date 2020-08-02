@@ -20,13 +20,14 @@
 {% block content %}
 
 {% for section, values in results %}
-  {% if data.answers and section in data.answers.help %}
+  {% if data.answers and (section in data.answers.help or "not_sure" in data.answers.help) %}
     <section class="app-c-actions-group">
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-one-third">
           <h2 class="govuk-heading-l">{{ section | getSectionTitle }}</h2>
         </div>
         <div class="govuk-grid-column-two-thirds">
+
           {%- for question, answers in values %}
             {#%- if data.answers[question] in answers.show_options %#}
               <div data-ec-list-question="{{ answers.title }}">
@@ -70,7 +71,7 @@
             <h3 class="app-c-callout__title">
               {{- section | getFeedbackMessage -}}
             </h3>
-            <a class="govuk-link" href="https://www.gov.uk/done/find-coronavirus-support">Give feedback on this service</a>
+            <a class="govuk-link" href="/help">Give feedback on this service</a>
           </div>
 
         </div>
